@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="GameObject" i="object" m="objects.game_object" n="Halfwolf102:object_Thermostat_deluxe" s="16213809603245645874">
+  <U n="_components">
+    <V n="focus" t="enabled">
+      <U n="enabled">
+        <V n="_focus_score" t="globally">
+          <U n="globally">
+            <E n="base">LOW</E>
+          </U>
+        </V>
+      </U>
+    </V>
+    <V n="line_of_sight" t="enabled" />
+    <V n="retail_component" t="enabled">
+      <V n="enabled" t="reference">
+        <T n="reference">110393<!--retailComponent_Default--></T>
+      </V>
+    </V>
+    <V n="state" t="enabled">
+      <U n="enabled">
+        <V n="delinquency_state_changes" t="enabled">
+          <L n="enabled">
+            <U>
+              <E n="key">POWER</E>
+              <L n="value">
+                <T>187699<!--Thermostat_LotStat_Setting_Medium--></T>
+              </L>
+            </U>
+          </L>
+        </V>
+        <L n="state_triggers">
+          <U>
+            <L n="at_states">
+              <T>77532<!--FireState_Burn_Material_Change_Replace--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>39737<!--FireState_Burn_Material_Change_Not_Burning--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>39611<!--FireState_Burn_Material_Change--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>190865<!--thermostat_GeoState_Burnt--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>187698<!--Thermostat_LotStat_Setting_Low--></T>
+              <T>39737<!--FireState_Burn_Material_Change_Not_Burning--></T>
+              <T>3154629786164256605<!--Halfwolf102:thermostat_AutoState_Off--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>190860<!--thermostat_GeoState_Low--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>187699<!--Thermostat_LotStat_Setting_Medium--></T>
+              <T>39737<!--FireState_Burn_Material_Change_Not_Burning--></T>
+              <T>3154629786164256605<!--Halfwolf102:thermostat_AutoState_Off--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>190858<!--thermostat_GeoState_Off--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>187700<!--Thermostat_LotStat_Setting_High--></T>
+              <T>39737<!--FireState_Burn_Material_Change_Not_Burning--></T>
+              <T>3154629786164256605<!--Halfwolf102:thermostat_AutoState_Off--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>190859<!--thermostat_GeoState_High--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>187698<!--Thermostat_LotStat_Setting_Low--></T>
+              <T>39737<!--FireState_Burn_Material_Change_Not_Burning--></T>
+              <T>5451228909861312593<!--Halfwolf102:thermostat_AutoState_On--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>4585764625223806887<!--Halfwolf102:thermostat_GeoState_AutoLow--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>187699<!--Thermostat_LotStat_Setting_Medium--></T>
+              <T>39737<!--FireState_Burn_Material_Change_Not_Burning--></T>
+              <T>5451228909861312593<!--Halfwolf102:thermostat_AutoState_On--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>4586599154549429818<!--Halfwolf102:thermostat_GeoState_AutoOff--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>187700<!--Thermostat_LotStat_Setting_High--></T>
+              <T>39737<!--FireState_Burn_Material_Change_Not_Burning--></T>
+              <T>5451228909861312593<!--Halfwolf102:thermostat_AutoState_On--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>280996848414002947<!--Halfwolf102:thermostat_GeoState_AutoHigh--></T>
+              </L>
+            </V>
+          </U>
+        </L>
+        <L n="states">
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">3154629786164256605<!--Halfwolf102:thermostat_AutoState_Off--></T>
+              </U>
+              <U>
+                <T n="key">5451228909861312593<!--Halfwolf102:thermostat_AutoState_On--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">5451228909861312593<!--Halfwolf102:thermostat_AutoState_On--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">8502210675408458647<!--Halfwolf102:Thermostat_Auto_Initialize_Run--></T>
+              </U>
+              <U>
+                <T n="key">2850956577503850061<!--Halfwolf102:Thermostat_Auto_Initialize_Complete--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">2850956577503850061<!--Halfwolf102:Thermostat_Auto_Initialize_Complete--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">6195482010419633318<!--Halfwolf102:upgrade_Thermostat_Auto_NotStarted--></T>
+              </U>
+              <U>
+                <T n="key">13419583200880891987<!--Halfwolf102:upgrade_Thermostat_Auto_Partial--></T>
+              </U>
+              <U>
+                <T n="key">4076055836307821283<!--Halfwolf102:upgrade_Thermostat_Auto_Completed--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">4076055836307821283<!--Halfwolf102:upgrade_Thermostat_Auto_Completed--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">5108503156620794432<!--Halfwolf102:upgrade_Thermostat_EnergyEfficiency_NotStarted--></T>
+              </U>
+              <U>
+                <T n="key">5320231807744720637<!--Halfwolf102:upgrade_Thermostat_EnergyEfficiency_Partial--></T>
+              </U>
+              <U>
+                <T n="key">2610234671876013873<!--Halfwolf102:upgrade_Thermostat_EnergyEfficiency_Completed--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">2610234671876013873<!--Halfwolf102:upgrade_Thermostat_EnergyEfficiency_Completed--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">187958<!--thermostat_LotStat_Count_Zero--></T>
+              </U>
+              <U>
+                <T n="key">187959<!--thermostat_LotStat_Count_Some--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">187958<!--thermostat_LotStat_Count_Zero--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">187698<!--Thermostat_LotStat_Setting_Low--></T>
+              </U>
+              <U>
+                <T n="key">187699<!--Thermostat_LotStat_Setting_Medium--></T>
+              </U>
+              <U>
+                <T n="key">187700<!--Thermostat_LotStat_Setting_High--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">187699<!--Thermostat_LotStat_Setting_Medium--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">39611<!--FireState_Burn_Material_Change--></T>
+              </U>
+              <U>
+                <T n="key">39736<!--FireState_Burn_Material_Change_Burning--></T>
+              </U>
+              <U>
+                <T n="key">39737<!--FireState_Burn_Material_Change_Not_Burning--></T>
+              </U>
+              <U>
+                <T n="key">77532<!--FireState_Burn_Material_Change_Replace--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">39737<!--FireState_Burn_Material_Change_Not_Burning--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">190858<!--thermostat_GeoState_Off--></T>
+                <U n="value">
+                  <V n="autonomy_modifiers" t="apply_new_value" />
+                  <V n="lot_statistic_modifiers" t="apply_new_value" />
+                  <V n="material_state" t="apply_new_value">
+                    <U n="apply_new_value">
+                      <V n="state_name" t="set_to_custom_value">
+                        <T n="set_to_custom_value">off</T>
+                      </V>
+                    </U>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <T n="key">190859<!--thermostat_GeoState_High--></T>
+                <U n="value">
+                  <V n="autonomy_modifiers" t="apply_new_value">
+                    <V n="apply_new_value" t="apply_statistic_modifiers">
+                      <U n="apply_statistic_modifiers">
+                        <L n="lot_statistic_modifiers">
+                          <U>
+                            <V n="modifier" t="multipliers">
+                              <U n="multipliers">
+                                <U n="value">
+                                  <T n="base_value">-0.00694</T>
+                                  <L n="multipliers">
+                                    <U>
+                                      <T n="multiplier">0.8</T>
+                                      <L n="tests">
+                                        <L>
+                                          <V t="season">
+                                            <U n="season">
+                                              <L n="seasons">
+                                                <E>SUMMER</E>
+                                              </L>
+                                            </U>
+                                          </V>
+                                        </L>
+                                      </L>
+                                    </U>
+                                    <U>
+                                      <T n="multiplier">0.8</T>
+                                      <L n="tests">
+                                        <L>
+                                          <V t="state">
+                                            <U n="state">
+                                              <T n="value">2610234671876013873<!--Halfwolf102:upgrade_Thermostat_EnergyEfficiency_Completed--></T>
+                                            </U>
+                                          </V>
+                                        </L>
+                                      </L>
+                                    </U>
+                                  </L>
+                                </U>
+                              </U>
+                            </V>
+                            <T n="statistic">233027<!--commodity_Utilities_Power--></T>
+                          </U>
+                        </L>
+                      </U>
+                    </V>
+                  </V>
+                  <V n="lot_statistic_modifiers" t="apply_new_value">
+                    <V n="apply_new_value" t="apply_modifiers">
+                      <U n="apply_modifiers">
+                        <L n="statistic_changes">
+                          <U>
+                            <T n="amount">1</T>
+                            <T n="stat">188002<!--statistic_Object_Thermostat_LotStat_Counter--></T>
+                          </U>
+                        </L>
+                      </U>
+                    </V>
+                  </V>
+                  <V n="material_state" t="apply_new_value">
+                    <U n="apply_new_value">
+                      <V n="state_name" t="set_to_custom_value">
+                        <T n="set_to_custom_value">warmer</T>
+                      </V>
+                    </U>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <T n="key">190860<!--thermostat_GeoState_Low--></T>
+                <U n="value">
+                  <V n="autonomy_modifiers" t="apply_new_value">
+                    <V n="apply_new_value" t="apply_statistic_modifiers">
+                      <U n="apply_statistic_modifiers">
+                        <L n="lot_statistic_modifiers">
+                          <U>
+                            <V n="modifier" t="multipliers">
+                              <U n="multipliers">
+                                <U n="value">
+                                  <T n="base_value">-0.00694</T>
+                                  <L n="multipliers">
+                                    <U>
+                                      <T n="multiplier">0.8</T>
+                                      <L n="tests">
+                                        <L>
+                                          <V t="season">
+                                            <U n="season">
+                                              <L n="seasons">
+                                                <E>WINTER</E>
+                                              </L>
+                                            </U>
+                                          </V>
+                                        </L>
+                                      </L>
+                                    </U>
+                                    <U>
+                                      <T n="multiplier">0.75</T>
+                                      <L n="tests">
+                                        <L>
+                                          <V t="state">
+                                            <U n="state">
+                                              <T n="value">2610234671876013873<!--Halfwolf102:upgrade_Thermostat_EnergyEfficiency_Completed--></T>
+                                            </U>
+                                          </V>
+                                        </L>
+                                      </L>
+                                    </U>
+                                  </L>
+                                </U>
+                              </U>
+                            </V>
+                            <T n="statistic">233027<!--commodity_Utilities_Power--></T>
+                          </U>
+                        </L>
+                      </U>
+                    </V>
+                  </V>
+                  <V n="lot_statistic_modifiers" t="apply_new_value">
+                    <V n="apply_new_value" t="apply_modifiers">
+                      <U n="apply_modifiers">
+                        <L n="statistic_changes">
+                          <U>
+                            <T n="amount">1</T>
+                            <T n="stat">188002<!--statistic_Object_Thermostat_LotStat_Counter--></T>
+                          </U>
+                        </L>
+                      </U>
+                    </V>
+                  </V>
+                  <V n="material_state" t="apply_new_value">
+                    <U n="apply_new_value">
+                      <V n="state_name" t="set_to_custom_value">
+                        <T n="set_to_custom_value">cooler</T>
+                      </V>
+                    </U>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <T n="key">4586599154549429818<!--Halfwolf102:thermostat_GeoState_AutoOff--></T>
+                <U n="value">
+                  <V n="autonomy_modifiers" t="apply_new_value" />
+                  <V n="lot_statistic_modifiers" t="apply_new_value" />
+                  <V n="material_state" t="apply_new_value">
+                    <U n="apply_new_value">
+                      <V n="state_name" t="set_to_custom_value">
+                        <T n="set_to_custom_value">UTMSAutoOff</T>
+                      </V>
+                    </U>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <T n="key">280996848414002947<!--Halfwolf102:thermostat_GeoState_AutoHigh--></T>
+                <U n="value">
+                  <V n="autonomy_modifiers" t="apply_new_value">
+                    <V n="apply_new_value" t="apply_statistic_modifiers">
+                      <U n="apply_statistic_modifiers">
+                        <L n="lot_statistic_modifiers">
+                          <U>
+                            <V n="modifier" t="multipliers">
+                              <U n="multipliers">
+                                <U n="value">
+                                  <T n="base_value">-0.00694</T>
+                                  <L n="multipliers">
+                                    <U>
+                                      <T n="multiplier">0.8</T>
+                                      <L n="tests">
+                                        <L>
+                                          <V t="season">
+                                            <U n="season">
+                                              <L n="seasons">
+                                                <E>SUMMER</E>
+                                              </L>
+                                            </U>
+                                          </V>
+                                        </L>
+                                      </L>
+                                    </U>
+                                    <U>
+                                      <T n="multiplier">0.8</T>
+                                      <L n="tests">
+                                        <L>
+                                          <V t="state">
+                                            <U n="state">
+                                              <T n="value">2610234671876013873<!--Halfwolf102:upgrade_Thermostat_EnergyEfficiency_Completed--></T>
+                                            </U>
+                                          </V>
+                                        </L>
+                                      </L>
+                                    </U>
+                                  </L>
+                                </U>
+                              </U>
+                            </V>
+                            <T n="statistic">233027<!--commodity_Utilities_Power--></T>
+                          </U>
+                        </L>
+                      </U>
+                    </V>
+                  </V>
+                  <V n="lot_statistic_modifiers" t="apply_new_value">
+                    <V n="apply_new_value" t="apply_modifiers">
+                      <U n="apply_modifiers">
+                        <L n="statistic_changes">
+                          <U>
+                            <T n="amount">1</T>
+                            <T n="stat">188002<!--statistic_Object_Thermostat_LotStat_Counter--></T>
+                          </U>
+                        </L>
+                      </U>
+                    </V>
+                  </V>
+                  <V n="material_state" t="apply_new_value">
+                    <U n="apply_new_value">
+                      <V n="state_name" t="set_to_custom_value">
+                        <T n="set_to_custom_value">UTMSAutoWarmer</T>
+                      </V>
+                    </U>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <T n="key">4585764625223806887<!--Halfwolf102:thermostat_GeoState_AutoLow--></T>
+                <U n="value">
+                  <V n="autonomy_modifiers" t="apply_new_value">
+                    <V n="apply_new_value" t="apply_statistic_modifiers">
+                      <U n="apply_statistic_modifiers">
+                        <L n="lot_statistic_modifiers">
+                          <U>
+                            <V n="modifier" t="multipliers">
+                              <U n="multipliers">
+                                <U n="value">
+                                  <T n="base_value">-0.00694</T>
+                                  <L n="multipliers">
+                                    <U>
+                                      <T n="multiplier">0.8</T>
+                                      <L n="tests">
+                                        <L>
+                                          <V t="season">
+                                            <U n="season">
+                                              <L n="seasons">
+                                                <E>WINTER</E>
+                                              </L>
+                                            </U>
+                                          </V>
+                                        </L>
+                                      </L>
+                                    </U>
+                                    <U>
+                                      <T n="multiplier">0.75</T>
+                                      <L n="tests">
+                                        <L>
+                                          <V t="state">
+                                            <U n="state">
+                                              <T n="value">2610234671876013873<!--Halfwolf102:upgrade_Thermostat_EnergyEfficiency_Completed--></T>
+                                            </U>
+                                          </V>
+                                        </L>
+                                      </L>
+                                    </U>
+                                  </L>
+                                </U>
+                              </U>
+                            </V>
+                            <T n="statistic">233027<!--commodity_Utilities_Power--></T>
+                          </U>
+                        </L>
+                      </U>
+                    </V>
+                  </V>
+                  <V n="lot_statistic_modifiers" t="apply_new_value">
+                    <V n="apply_new_value" t="apply_modifiers">
+                      <U n="apply_modifiers">
+                        <L n="statistic_changes">
+                          <U>
+                            <T n="amount">1</T>
+                            <T n="stat">188002<!--statistic_Object_Thermostat_LotStat_Counter--></T>
+                          </U>
+                        </L>
+                      </U>
+                    </V>
+                  </V>
+                  <V n="material_state" t="apply_new_value">
+                    <U n="apply_new_value">
+                      <V n="state_name" t="set_to_custom_value">
+                        <T n="set_to_custom_value">UTMSAutoCooler</T>
+                      </V>
+                    </U>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <T n="key">190865<!--thermostat_GeoState_Burnt--></T>
+                <U n="value">
+                  <V n="lot_statistic_modifiers" t="apply_new_value" />
+                </U>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">4586599154549429818<!--Halfwolf102:thermostat_GeoState_AutoOff--></T>
+            </V>
+          </U>
+        </L>
+      </U>
+    </V>
+  </U>
+  <L n="_super_affordances">
+    <T>13328<!--debug_Reset--></T>
+    <T>13326<!--debug_ObjectDestroy--></T>
+    <T>103888<!--cheat_set_as_head--></T>
+    <T>3548907697686937135<!--Halfwolf102:cheat_Thermostat_Auto_Unlock--></T>
+    <T>7080592669505880425<!--Halfwolf102:cheat_Thermostat_EnergyEfficiency_Unlock--></T>
+    <T>13287646958440881458<!--Halfwolf102:Thermostat_SetAuto--></T>
+    <T>5676947695433561610<!--Halfwolf102:Thermostat_SetHigh_AutoOff--></T>
+    <T>9019585887282725356<!--Halfwolf102:Thermostat_SetHigh_AutoOn--></T>
+    <T>6249866892313921495<!--Halfwolf102:Thermostat_SetMedium_AutoOff--></T>
+    <T>3148257460408104707<!--Halfwolf102:Thermostat_SetMedium_AutoOn--></T>
+    <T>11248297919635204446<!--Halfwolf102:Thermostat_SetLow_AutoOff--></T>
+    <T>10191710712569947616<!--Halfwolf102:Thermostat_SetLow_AutoOn--></T>
+    <T>2095374575036934227<!--Halfwolf102:Thermostat_Upgrade_Auto--></T>
+    <T>12545879768697117006<!--Halfwolf102:Thermostat_ecoUpgrade_Auto--></T>
+    <T>13064866120638038911<!--Halfwolf102:Thermostat_Upgrade_Auto_resume--></T>
+    <T>7194949712970211109<!--Halfwolf102:Thermostat_Upgrade_Auto_CompletedDisplay--></T>
+    <T>6769211536099844521<!--Halfwolf102:Thermostat_Upgrade_EnergyEfficiency--></T>
+    <T>13218779235326325364<!--Halfwolf102:Thermostat_ecoUpgrade_EnergyEfficiency--></T>
+    <T>9814816751042190917<!--Halfwolf102:Thermostat_Upgrade_EnergyEfficiency_resume--></T>
+    <T>8414362439440653799<!--Halfwolf102:Thermostat_Upgrade_EnergyEfficiency_CompletedDisplay--></T>
+    <T>74457<!--fire_ReplaceBurntObject--></T>
+  </L>
+  <U n="recycling_data">
+    <L n="recycling_values">
+      <U>
+        <E n="Bucks Type">RecycleBitsBucks</E>
+        <T n="Value">0.5</T>
+      </U>
+      <U>
+        <E n="Bucks Type">RecyclePiecesBucks</E>
+        <T n="Value">0.5</T>
+      </U>
+    </L>
+  </U>
+</I>
