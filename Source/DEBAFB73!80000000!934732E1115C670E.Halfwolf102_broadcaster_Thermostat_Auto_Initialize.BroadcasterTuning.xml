@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="Broadcaster" i="broadcaster" m="broadcasters.broadcaster" n="Halfwolf102:broadcaster_Thermostat_Auto_Initialize" s="10612506989162161934">
+  <L n="constraints">
+    <V t="circle">
+      <U n="circle">
+        <T n="radius">300</T>
+      </U>
+    </V>
+  </L>
+  <L n="effects">
+    <V t="self_state_change">
+      <U n="self_state_change">
+        <T n="enter_state_value">6195482010419633318<!--Halfwolf102:upgrade_Thermostat_Auto_NotStarted--></T>
+        <T n="exit_state_value">4076055836307821283<!--Halfwolf102:upgrade_Thermostat_Auto_Completed--></T>
+        <L n="tests">
+          <L>
+            <V t="sim_info">
+              <U n="sim_info">
+                <V t="specified" n="species">
+                  <U n="specified">
+                    <L n="species">
+                      <E />
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </V>
+            <V t="state">
+              <U n="state">
+                <T n="value">8502210675408458647<!--Halfwolf102:Thermostat_Auto_Initialize_Run--></T>
+                <E n="who">Object</E>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="loot">
+      <U n="loot">
+        <L n="loot_list">
+          <T>7555858213341631456<!--Halfwolf102:loot_cheat_Thermostat_Auto_Unlock--></T>
+        </L>
+        <L n="tests">
+          <L><!--Owned AND Is Apartment-->
+            <V t="lot_owner">
+              <U n="lot_owner">
+                <T n="owns_lot">True</T>
+                <E n="subject">ActiveHousehold</E>
+              </U>
+            </V>
+            <V t="zone">
+              <U n="zone">
+                <V n="zone_source" t="use_current_zone" />
+                <U n="zone_tests">
+                  <V n="is_apartment" t="Is_or_is_not_apartment_zone">
+                    <U n="Is_or_is_not_apartment_zone">
+                      <T n="consider_penthouse_an_apartment">True</T>
+                      <T n="is_apartment">True</T>
+                    </U>
+                  </V>
+                </U>
+              </U>
+            </V>
+          </L>
+          <L><!--Not Owned-->
+            <V t="lot_owner">
+              <U n="lot_owner">
+                <T n="consider_business_lot_as_owned">True</T>
+                <T n="consider_rented_lot_as_owned">False</T>
+                <T n="owns_lot">False</T>
+                <E n="subject">ActiveHousehold</E>
+              </U>
+            </V>
+          </L>
+          <L><!--Rental Fallback-->
+            <V t="zone">
+              <U n="zone">
+                <U n="zone_tests">
+                  <V n="venue_type" t="enabled">
+                    <U n="enabled">
+                      <V n="whitelist" t="specify">
+                        <U n="specify">
+                          <L n="whitelist">
+                            <T>103675<!--venue_rentable_cabin--></T>
+                            <T>173833<!--venue_Rentable_Jungle--></T>
+                            <T>239458<!--venue_rentable_vacation_generic--></T>
+                            <T>208182<!--venue_rentable_universityHousing--></T>
+                          </L>
+                        </U>
+                      </V>
+                    </U>
+                  </V>
+                </U>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="self_state_change">
+      <U n="self_state_change">
+        <T n="enter_state_value">5108503156620794432<!--Halfwolf102:upgrade_Thermostat_EnergyEfficiency_NotStarted--></T>
+        <T n="exit_state_value">2610234671876013873<!--Halfwolf102:upgrade_Thermostat_EnergyEfficiency_Completed--></T>
+        <L n="tests">
+          <L>
+            <V t="sim_info">
+              <U n="sim_info">
+                <V t="specified" n="species">
+                  <U n="specified">
+                    <L n="species">
+                      <E />
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </V>
+            <V t="state">
+              <U n="state">
+                <T n="value">8502210675408458647<!--Halfwolf102:Thermostat_Auto_Initialize_Run--></T>
+                <E n="who">Object</E>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="loot">
+      <U n="loot">
+        <L n="loot_list">
+          <T>675639132427929482<!--Halfwolf102:loot_cheat_Thermostat_EnergyEfficiency_Unlock--></T>
+        </L>
+        <L n="tests">
+          <L><!--Owned AND Is Apartment-->
+            <V t="lot_owner">
+              <U n="lot_owner">
+                <T n="owns_lot">True</T>
+                <E n="subject">ActiveHousehold</E>
+              </U>
+            </V>
+            <V t="zone">
+              <U n="zone">
+                <V n="zone_source" t="use_current_zone" />
+                <U n="zone_tests">
+                  <V n="is_apartment" t="Is_or_is_not_apartment_zone">
+                    <U n="Is_or_is_not_apartment_zone">
+                      <T n="consider_penthouse_an_apartment">True</T>
+                      <T n="is_apartment">True</T>
+                    </U>
+                  </V>
+                </U>
+              </U>
+            </V>
+          </L>
+          <L><!--Not Owned-->
+            <V t="lot_owner">
+              <U n="lot_owner">
+                <T n="consider_business_lot_as_owned">True</T>
+                <T n="consider_rented_lot_as_owned">False</T>
+                <T n="owns_lot">False</T>
+                <E n="subject">ActiveHousehold</E>
+              </U>
+            </V>
+          </L>
+          <L><!--Rental Fallback-->
+            <V t="zone">
+              <U n="zone">
+                <U n="zone_tests">
+                  <V n="venue_type" t="enabled">
+                    <U n="enabled">
+                      <V n="whitelist" t="specify">
+                        <U n="specify">
+                          <L n="whitelist">
+                            <T>103675<!--venue_rentable_cabin--></T>
+                            <T>173833<!--venue_Rentable_Jungle--></T>
+                            <T>239458<!--venue_rentable_vacation_generic--></T>
+                            <T>208182<!--venue_rentable_universityHousing--></T>
+                          </L>
+                        </U>
+                      </V>
+                    </U>
+                  </V>
+                </U>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="self_state_change">
+      <U n="self_state_change">
+        <T n="enter_state_value">3154629786164256605<!--Halfwolf102:thermostat_AutoState_Off--></T>
+        <T n="exit_state_value">5451228909861312593<!--Halfwolf102:thermostat_AutoState_On--></T>
+        <L n="tests">
+          <L>
+            <V t="sim_info">
+              <U n="sim_info">
+                <V t="specified" n="species">
+                  <U n="specified">
+                    <L n="species">
+                      <E />
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </V>
+            <V t="state">
+              <U n="state">
+                <T n="value">8502210675408458647<!--Halfwolf102:Thermostat_Auto_Initialize_Run--></T>
+                <E n="who">Object</E>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="loot">
+      <U n="loot">
+        <L n="loot_list">
+          <T>18246191721790031248<!--Halfwolf102:loot_Thermostat_GlobalBuff_Auto--></T>
+        </L>
+        <L n="tests">
+          <L><!--Not Owned-->
+            <V t="lot_owner">
+              <U n="lot_owner">
+                <T n="consider_business_lot_as_owned">True</T>
+                <T n="consider_rented_lot_as_owned">False</T>
+                <T n="owns_lot">False</T>
+                <E n="subject">ActiveHousehold</E>
+              </U>
+            </V>
+          </L>
+          <L><!--Rental Fallback-->
+            <V t="zone">
+              <U n="zone">
+                <U n="zone_tests">
+                  <V n="venue_type" t="enabled">
+                    <U n="enabled">
+                      <V n="whitelist" t="specify">
+                        <U n="specify">
+                          <L n="whitelist">
+                            <T>103675<!--venue_rentable_cabin--></T>
+                            <T>173833<!--venue_Rentable_Jungle--></T>
+                            <T>239458<!--venue_rentable_vacation_generic--></T>
+                            <T>208182<!--venue_rentable_universityHousing--></T>
+                          </L>
+                        </U>
+                      </V>
+                    </U>
+                  </V>
+                </U>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="self_state_change">
+      <U n="self_state_change">
+        <T n="enter_state_value">8502210675408458647<!--Halfwolf102:Thermostat_Auto_Initialize_Run--></T>
+        <T n="exit_state_value">2850956577503850061<!--Halfwolf102:Thermostat_Auto_Initialize_Complete--></T>
+        <L n="tests">
+          <L>
+            <V t="sim_info">
+              <U n="sim_info">
+                <V t="specified" n="species">
+                  <U n="specified">
+                    <L n="species">
+                      <E />
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </V>
+            <V t="state">
+              <U n="state">
+                <T n="value">8502210675408458647<!--Halfwolf102:Thermostat_Auto_Initialize_Run--></T>
+                <E n="who">Object</E>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="loot">
+      <U n="loot">
+        <L n="loot_list">
+          <T>4657226755985381444<!--Halfwolf102:loot_Thermostat_Auto_Initialize_Complete--></T>
+        </L>
+        <L n="tests">
+          <L>
+            <V t="sim_info">
+              <U n="sim_info">
+                <V t="specified" n="species">
+                  <U n="specified">
+                    <L n="species">
+                      <E />
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </V>
+            <V t="state">
+              <U n="state">
+                <T n="value">8502210675408458647<!--Halfwolf102:Thermostat_Auto_Initialize_Run--></T>
+                <E n="who">Object</E>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+  </L>
+  <V n="frequency" t="on_pulse">
+    <U n="on_pulse">
+      <T n="cooldown_time">1</T>
+    </U>
+  </V>
+  <T n="immediate">True</T>
+</I>

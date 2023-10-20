@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="ImmediateSuperInteraction" i="interaction" m="interactions.base.immediate_interaction" n="Halfwolf102:cheat_Thermostat_Auto_Unlock" s="3548907697686937135">
+  <V n="_saveable" t="disabled" />
+  <T n="allow_user_directed">True</T>
+  <T n="category">274721<!--pieMenuCategory_Cheats_Main--></T>
+  <T n="cheat">True</T>
+  <V n="content_score" t="disabled" />
+  <T n="debug">True</T>
+  <T n="display_name">0xCAD95C3F<!--Unlock Temperature Sensor Upgrade--></T>
+  
+  <L n="interaction_category_tags">
+    <E>INVALID</E>
+  </L>
+  <V n="outcome" t="test_based">
+    <U n="test_based">
+      <L n="fallback_outcomes">
+        <U>
+          <U n="outcome">
+            <L n="loot_list">
+              <T>7555858213341631456<!--Halfwolf102:loot_cheat_Thermostat_Auto_Unlock--></T>
+            </L>
+          </U>
+        </U>
+      </L>
+      <L n="tested_outcomes" />
+    </U>
+  </V>
+  <U n="progress_bar_enabled">
+    <T n="bar_enabled">False</T>
+  </U>
+  <E n="target_type">OBJECT</E>
+  <L n="test_globals">
+    <V t="state">
+      <U n="state">
+        <E n="operator">NOTEQUAL</E>
+        <T n="value">4076055836307821283<!--Halfwolf102:upgrade_Thermostat_Auto_Complete--></T>
+      </U>
+    </V>
+  </L>
+</I>

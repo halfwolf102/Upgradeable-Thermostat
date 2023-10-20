@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="CommodityBasedObjectStateValue" i="object_state" m="objects.components.state" n="Halfwolf102:Thermostat_Auto_Initialize_Run" s="8502210675408458647">
+  <V t="boolean" n="value" />
+  <U n="new_client_state">
+    <V n="broadcaster" t="apply_new_value">
+      <V n="apply_new_value" t="start_broadcaster">
+        <U n="start_broadcaster">
+          <L n="broadcaster_types">
+            <U>
+              <T n="item">10612506989162161934<!--Halfwolf102:broadcaster_Thermostat_Auto_Initialize--></T>
+            </U>
+          </L>
+        </U>
+      </V>
+    </V>
+  </U>
+</I>

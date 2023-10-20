@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="Broadcaster" i="broadcaster" m="broadcasters.broadcaster" n="Halfwolf102:broadcaster_Thermostat_Auto" s="5205354905337221377">
+  <L n="constraints">
+    <V t="circle">
+      <U n="circle">
+        <T n="radius">300</T>
+      </U>
+    </V>
+  </L>
+  <L n="effects">
+    <V t="self_state_change">
+      <U n="self_state_change">
+        <T n="enter_state_value">187700<!--Thermostat_LotStat_Setting_High--></T>
+        <T n="exit_state_value">187699<!--Thermostat_LotStat_Setting_Medium--></T>
+        <L n="tests">
+          <L>
+            <V t="sim_info">
+              <U n="sim_info">
+                <V t="specified" n="species">
+                  <U n="specified">
+                    <L n="species">
+                      <E />
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </V>
+            <V t="weather_type">
+              <U n="weather_type">
+                <L n="weather_types">
+                  <E>Cold</E>
+                  <E>Freezing</E>
+                </L>
+              </U>
+            </V>
+            <V t="state">
+              <U n="state">
+                <T n="value">5451228909861312593<!--Halfwolf102:thermostat_AutoState_On--></T>
+                <E n="who">Object</E>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="self_state_change">
+      <U n="self_state_change">
+        <T n="enter_state_value">187698<!--Thermostat_LotStat_Setting_Low--></T>
+        <T n="exit_state_value">187699<!--Thermostat_LotStat_Setting_Medium--></T>
+        <L n="tests">
+          <L>
+            <V t="sim_info">
+              <U n="sim_info">
+                <V t="specified" n="species">
+                  <U n="specified">
+                    <L n="species">
+                      <E />
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </V>
+            <V t="weather_type">
+              <U n="weather_type">
+                <L n="weather_types">
+                  <E>Hot</E>
+                  <E>Burning</E>
+                </L>
+              </U>
+            </V>
+            <V t="state">
+              <U n="state">
+                <T n="value">5451228909861312593<!--Halfwolf102:thermostat_AutoState_On--></T>
+                <E n="who">Object</E>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="self_state_change">
+      <U n="self_state_change">
+        <T n="enter_state_value">187699<!--Thermostat_LotStat_Setting_Medium--></T>
+        <T n="exit_state_value">187699<!--Thermostat_LotStat_Setting_Medium--></T>
+        <L n="tests">
+          <L>
+            <V t="sim_info">
+              <U n="sim_info">
+                <V t="specified" n="species">
+                  <U n="specified">
+                    <L n="species">
+                      <E />
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </V>
+            <V t="weather_type">
+              <U n="weather_type">
+                <T n="invert">True</T>
+                <L n="weather_types">
+                  <E>Cold</E>
+                  <E>Freezing</E>
+                  <E>Hot</E>
+                  <E>Burning</E>
+                </L>
+              </U>
+            </V>
+            <V t="state">
+              <U n="state">
+                <T n="value">5451228909861312593<!--Halfwolf102:thermostat_AutoState_On--></T>
+                <E n="who">Object</E>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="loot">
+      <U n="loot">
+        <L n="loot_list">
+          <T>13825611818800073565<!--Halfwolf102:loot_Thermostat_GlobalBuff_High--></T>
+        </L>
+        <L n="tests">
+          <L>
+            <V t="sim_info">
+              <U n="sim_info">
+                <V t="specified" n="species">
+                  <U n="specified">
+                    <L n="species">
+                      <E />
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </V>
+            <V t="weather_type">
+              <U n="weather_type">
+                <L n="weather_types">
+                  <E>Cold</E>
+                  <E>Freezing</E>
+                </L>
+              </U>
+            </V>
+            <V t="state">
+              <U n="state">
+                <T n="value">5451228909861312593<!--Halfwolf102:thermostat_AutoState_On--></T>
+                <E n="who">Object</E>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>    
+    <V t="loot">
+      <U n="loot">
+        <L n="loot_list">
+          <T>11135714837635206217<!--Halfwolf102:loot_Thermostat_GlobalBuff_Low--></T>
+        </L>
+        <L n="tests">
+          <L>
+            <V t="sim_info">
+              <U n="sim_info">
+                <V t="specified" n="species">
+                  <U n="specified">
+                    <L n="species">
+                      <E />
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </V>
+            <V t="weather_type">
+              <U n="weather_type">
+                <L n="weather_types">
+                  <E>Hot</E>
+                  <E>Burning</E>
+                </L>
+              </U>
+            </V>
+            <V t="state">
+              <U n="state">
+                <T n="value">5451228909861312593<!--Halfwolf102:thermostat_AutoState_On--></T>
+                <E n="who">Object</E>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>    
+    <V t="loot">
+      <U n="loot">
+        <L n="loot_list">
+          <T>6969061855915699260<!--Halfwolf102:loot_Thermostat_GlobalBuff_Medium--></T>
+        </L>
+        <L n="tests">
+          <L>
+            <V t="sim_info">
+              <U n="sim_info">
+                <V t="specified" n="species">
+                  <U n="specified">
+                    <L n="species">
+                      <E />
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </V>
+            <V t="weather_type">
+              <U n="weather_type">
+                <T n="invert">True</T>
+                <L n="weather_types">
+                  <E>Cold</E>
+                  <E>Freezing</E>
+                  <E>Hot</E>
+                  <E>Burning</E>
+                </L>
+              </U>
+            </V>
+            <V t="state">
+              <U n="state">
+                <T n="value">5451228909861312593<!--Halfwolf102:thermostat_AutoState_On--></T>
+                <E n="who">Object</E>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <T n="buff_type">190657<!--buff_Thermostat_Hidden_GlobalBuff_Medium--></T>
+        </U>
+        <L n="tests">
+          <L>
+            <V t="sim_info">
+              <U n="sim_info">
+                <V t="specified" n="species">
+                  <U n="specified">
+                    <L n="species">
+                      <E />
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </V>
+            <V t="statistic">
+              <U n="statistic">
+                <T n="stat">187710<!--statistic_Object_Thermostat_LotStat_Setting--></T>
+                <V t="value_threshold" n="threshold">
+                  <U n="value_threshold">
+                    <E n="comparison">EQUAL</E>
+                    <T n="value">0</T>
+                  </U>
+                </V>
+                <E n="who">Lot</E>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <T n="buff_type">190656<!--buff_Thermostat_Hidden_GlobalBuff_Low--></T>
+        </U>
+        <L n="tests">
+          <L>
+            <V t="sim_info">
+              <U n="sim_info">
+                <V t="specified" n="species">
+                  <U n="specified">
+                    <L n="species">
+                      <E />
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </V>
+            <V t="statistic">
+              <U n="statistic">
+                <T n="stat">187710<!--statistic_Object_Thermostat_LotStat_Setting--></T>
+                <V t="value_threshold" n="threshold">
+                  <U n="value_threshold">
+                    <E n="comparison">EQUAL</E>
+                    <T n="value">-1</T>
+                  </U>
+                </V>
+                <E n="who">Lot</E>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <T n="buff_type">190651<!--buff_Thermostat_Hidden_GlobalBuff_High--></T>
+        </U>
+        <L n="tests">
+          <L>
+            <V t="sim_info">
+              <U n="sim_info">
+                <V t="specified" n="species">
+                  <U n="specified">
+                    <L n="species">
+                      <E />
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </V>
+            <V t="statistic">
+              <U n="statistic">
+                <T n="stat">187710<!--statistic_Object_Thermostat_LotStat_Setting--></T>
+                <V t="value_threshold" n="threshold">
+                  <U n="value_threshold">
+                    <E n="comparison">EQUAL</E>
+                    <T n="value">1</T>
+                  </U>
+                </V>
+                <E n="who">Lot</E>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+  </L>
+  <V n="frequency" t="on_pulse">
+    <U n="on_pulse">
+      <T n="cooldown_time">1</T>
+    </U>
+  </V>
+</I>
