@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="ObjectState" i="object_state" m="objects.components.state" n="Halfwolf102:upgradeable_Thermostat_MatStates" s="6874280240219028844">
+  <L n="_values">
+    <T>4129536882<!--UTMSAutoOff--></T>
+    <T>4075121725<!--UTMSAutoCooler--></T>
+    <T>845028481<!--UTMSAutoOff--></T>
+  </L>
+</I>
