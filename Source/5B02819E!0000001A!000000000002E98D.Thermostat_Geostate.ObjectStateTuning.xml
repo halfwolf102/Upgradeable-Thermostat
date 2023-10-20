@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="ObjectState" i="object_state" m="objects.components.state" n="Thermostat_Geostate" s="190861">
+  <L n="_values">
+    <T>190859<!--thermostat_GeoState_High--></T>
+    <T>190860<!--thermostat_GeoState_Low--></T>
+    <T>190858<!--thermostat_GeoState_Off--></T>
+    <T>280996848414002947<!--Halfwolf102:thermostat_GeoState_AutoHigh--></T>
+    <T>4585764625223806887<!--Halfwolf102:thermostat_GeoState_AutoLow--></T>
+    <T>4586599154549429818<!--Halfwolf102:thermostat_GeoState_AutoOff--></T>
+    <T>190865<!--thermostat_GeoState_Burnt--></T>
+  </L>
+</I>
