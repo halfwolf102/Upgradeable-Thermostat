@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="CommodityBasedObjectState" i="object_state" m="objects.components.state" n="Halfwolf102:upgrade_Thermostat_Auto_states" s="7623964206847146934">
+  <L n="_values">
+    <T>6195482010419633318<!--Halfwolf102:upgrade_Thermostat_Auto_NotStarted--></T>
+    <T>13419583200880891987<!--Halfwolf102:upgrade_Thermostat_Auto_Partial--></T>
+    <T>4076055836307821283<!--Halfwolf102:upgrade_Thermostat_Auto_Completed--></T>
+  </L>
+  <T n="linked_stat">15047392364791015610<!--Halfwolf102:statistic_Object_Upgrade_Thermostat_Auto--></T>
+</I>

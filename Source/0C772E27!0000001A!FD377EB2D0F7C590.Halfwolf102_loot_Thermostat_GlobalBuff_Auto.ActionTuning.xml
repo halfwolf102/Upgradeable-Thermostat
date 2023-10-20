@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="Halfwolf102:loot_Thermostat_GlobalBuff_Auto" s="18246191721790031248">
+  <L n="loot_actions">
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">5451228909861312593<!--Halfwolf102:thermostat_AutoState_On--></T>
+        <V t="participant" n="subject">
+          <E n="participant">Object</E>
+        </V>
+      </U>
+    </V>
+  </L>
+</I>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="CommodityBasedObjectStateValue" i="object_state" m="objects.components.state" n="Halfwolf102:thermostat_AutoState_Off" s="3154629786164256605">
+  <V t="boolean" n="value" />
+</I>

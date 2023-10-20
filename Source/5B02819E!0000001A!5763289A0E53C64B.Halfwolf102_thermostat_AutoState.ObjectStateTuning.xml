@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="CommodityBasedObjectState" i="object_state" m="objects.components.state" n="Halfwolf102:thermostat_AutoState" s="6296921346124531275">
+  <L n="_values">
+    <T>3154629786164256605<!--Halfwolf102:thermostat_AutoState_Off--></T>
+    <T>5451228909861312593<!--Halfwolf102:thermostat_AutoState_On--></T>
+  </L>
+</I>
