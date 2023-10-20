@@ -12,5 +12,13 @@
         </U>
       </V>
     </V>
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <T n="buff_type">190656<!--buff_Thermostat_Hidden_GlobalBuff_Low--></T>
+        </U>
+        <E n="subject">AllInstancedSims</E>
+      </U>
+    </V>
   </L>
 </I>
