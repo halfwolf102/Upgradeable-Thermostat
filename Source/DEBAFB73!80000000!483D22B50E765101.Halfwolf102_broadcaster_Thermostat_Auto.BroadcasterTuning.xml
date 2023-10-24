@@ -14,17 +14,6 @@
         <T n="exit_state_value">187699<!--Thermostat_LotStat_Setting_Medium--></T>
         <L n="tests">
           <L>
-            <V t="sim_info">
-              <U n="sim_info">
-                <V t="specified" n="species">
-                  <U n="specified">
-                    <L n="species">
-                      <E />
-                    </L>
-                  </U>
-                </V>
-              </U>
-            </V>
             <V t="weather_type">
               <U n="weather_type">
                 <L n="weather_types">
@@ -49,17 +38,6 @@
         <T n="exit_state_value">187699<!--Thermostat_LotStat_Setting_Medium--></T>
         <L n="tests">
           <L>
-            <V t="sim_info">
-              <U n="sim_info">
-                <V t="specified" n="species">
-                  <U n="specified">
-                    <L n="species">
-                      <E />
-                    </L>
-                  </U>
-                </V>
-              </U>
-            </V>
             <V t="weather_type">
               <U n="weather_type">
                 <L n="weather_types">
@@ -84,17 +62,6 @@
         <T n="exit_state_value">187699<!--Thermostat_LotStat_Setting_Medium--></T>
         <L n="tests">
           <L>
-            <V t="sim_info">
-              <U n="sim_info">
-                <V t="specified" n="species">
-                  <U n="specified">
-                    <L n="species">
-                      <E />
-                    </L>
-                  </U>
-                </V>
-              </U>
-            </V>
             <V t="weather_type">
               <U n="weather_type">
                 <T n="invert">True</T>
@@ -123,17 +90,6 @@
         </L>
         <L n="tests">
           <L>
-            <V t="sim_info">
-              <U n="sim_info">
-                <V t="specified" n="species">
-                  <U n="specified">
-                    <L n="species">
-                      <E />
-                    </L>
-                  </U>
-                </V>
-              </U>
-            </V>
             <V t="weather_type">
               <U n="weather_type">
                 <L n="weather_types">
@@ -159,17 +115,6 @@
         </L>
         <L n="tests">
           <L>
-            <V t="sim_info">
-              <U n="sim_info">
-                <V t="specified" n="species">
-                  <U n="specified">
-                    <L n="species">
-                      <E />
-                    </L>
-                  </U>
-                </V>
-              </U>
-            </V>
             <V t="weather_type">
               <U n="weather_type">
                 <L n="weather_types">
@@ -195,17 +140,6 @@
         </L>
         <L n="tests">
           <L>
-            <V t="sim_info">
-              <U n="sim_info">
-                <V t="specified" n="species">
-                  <U n="specified">
-                    <L n="species">
-                      <E />
-                    </L>
-                  </U>
-                </V>
-              </U>
-            </V>
             <V t="weather_type">
               <U n="weather_type">
                 <T n="invert">True</T>
