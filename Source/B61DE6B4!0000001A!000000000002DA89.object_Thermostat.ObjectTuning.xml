@@ -393,7 +393,7 @@
                   <V n="material_state" t="apply_new_value">
                     <U n="apply_new_value">
                       <V n="state_name" t="set_to_custom_value">
-                        <T n="set_to_custom_value">UTMSAutoOff</T>
+                        <T n="set_to_custom_value">Halfwolf102:thermostat_MatState_AutoOff</T>
                       </V>
                     </U>
                   </V>
@@ -463,7 +463,7 @@
                   <V n="material_state" t="apply_new_value">
                     <U n="apply_new_value">
                       <V n="state_name" t="set_to_custom_value">
-                        <T n="set_to_custom_value">UTMSAutoWarmer</T>
+                        <T n="set_to_custom_value">Halfwolf102:thermostat_MatState_AutoHigh</T>
                       </V>
                     </U>
                   </V>
@@ -533,7 +533,7 @@
                   <V n="material_state" t="apply_new_value">
                     <U n="apply_new_value">
                       <V n="state_name" t="set_to_custom_value">
-                        <T n="set_to_custom_value">UTMSAutoCooler</T>
+                        <T n="set_to_custom_value">Halfwolf102:thermostat_MatState_AutoLow</T>
                       </V>
                     </U>
                   </V>
