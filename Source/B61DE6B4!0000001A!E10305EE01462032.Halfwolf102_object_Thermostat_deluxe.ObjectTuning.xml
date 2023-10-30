@@ -153,33 +153,33 @@
           <U>
             <L n="client_states">
               <U>
-                <T n="key">6195482010419633318<!--Halfwolf102:upgrade_Thermostat_Auto_NotStarted--></T>
+                <T n="key">275012<!--upgrade_NotStarted_Generic_Slot1--></T>
               </U>
               <U>
-                <T n="key">13419583200880891987<!--Halfwolf102:upgrade_Thermostat_Auto_Partial--></T>
+                <T n="key">275015<!--upgrade_Partial_Generic_Slot1--></T>
               </U>
               <U>
-                <T n="key">4076055836307821283<!--Halfwolf102:upgrade_Thermostat_Auto_Completed--></T>
+                <T n="key">275005<!--upgrade_Completed_Generic_Slot1--></T>
               </U>
             </L>
             <V n="default_value" t="reference">
-              <T n="reference">4076055836307821283<!--Halfwolf102:upgrade_Thermostat_Auto_Completed--></T>
+              <T n="reference">275005<!--upgrade_Completed_Generic_Slot1--></T>
             </V>
           </U>
           <U>
             <L n="client_states">
               <U>
-                <T n="key">5108503156620794432<!--Halfwolf102:upgrade_Thermostat_EnergyEfficiency_NotStarted--></T>
+                <T n="key">233856<!--upgrade_NotStarted_EcoUpgrades_EnergyEfficientDrive--></T>
               </U>
               <U>
-                <T n="key">5320231807744720637<!--Halfwolf102:upgrade_Thermostat_EnergyEfficiency_Partial--></T>
+                <T n="key">233870<!--upgrade_Partial__EcoUpgrades_EnergyEfficientDrive--></T>
               </U>
               <U>
-                <T n="key">2610234671876013873<!--Halfwolf102:upgrade_Thermostat_EnergyEfficiency_Completed--></T>
+                <T n="key">233852<!--upgrade_Completed__EcoUpgrades_EnergyEfficientDrive--></T>
               </U>
             </L>
             <V n="default_value" t="reference">
-              <T n="reference">2610234671876013873<!--Halfwolf102:upgrade_Thermostat_EnergyEfficiency_Completed--></T>
+              <T n="reference">233852<!--upgrade_Completed__EcoUpgrades_EnergyEfficientDrive--></T>
             </V>
           </U>
           <U>
@@ -279,7 +279,7 @@
                                         <L>
                                           <V t="state">
                                             <U n="state">
-                                              <T n="value">2610234671876013873<!--Halfwolf102:upgrade_Thermostat_EnergyEfficiency_Completed--></T>
+                                              <T n="value">233852<!--upgrade_Completed__EcoUpgrades_EnergyEfficientDrive--></T>
                                             </U>
                                           </V>
                                         </L>
@@ -349,7 +349,7 @@
                                         <L>
                                           <V t="state">
                                             <U n="state">
-                                              <T n="value">2610234671876013873<!--Halfwolf102:upgrade_Thermostat_EnergyEfficiency_Completed--></T>
+                                              <T n="value">233852<!--upgrade_Completed__EcoUpgrades_EnergyEfficientDrive--></T>
                                             </U>
                                           </V>
                                         </L>
@@ -433,7 +433,7 @@
                                         <L>
                                           <V t="state">
                                             <U n="state">
-                                              <T n="value">2610234671876013873<!--Halfwolf102:upgrade_Thermostat_EnergyEfficiency_Completed--></T>
+                                              <T n="value">233852<!--upgrade_Completed__EcoUpgrades_EnergyEfficientDrive--></T>
                                             </U>
                                           </V>
                                         </L>
@@ -503,7 +503,7 @@
                                         <L>
                                           <V t="state">
                                             <U n="state">
-                                              <T n="value">2610234671876013873<!--Halfwolf102:upgrade_Thermostat_EnergyEfficiency_Completed--></T>
+                                              <T n="value">233852<!--upgrade_Completed__EcoUpgrades_EnergyEfficientDrive--></T>
                                             </U>
                                           </V>
                                         </L>
