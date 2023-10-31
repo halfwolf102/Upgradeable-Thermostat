@@ -3,7 +3,7 @@
   <L n="loot_actions">
     <V t="state_change">
       <U n="state_change">
-        <T n="state_value">4076055836307821283<!--Halfwolf102:upgrade_Thermostat_Auto_Completed--></T>
+        <T n="state_value">275005<!--upgrade_Completed_Generic_Slot1--></T>
         <V t="participant" n="subject">
           <E n="participant">Object</E>
         </V>
@@ -12,7 +12,7 @@
     <V t="statistics">
       <V n="statistics" t="statistic_set">
         <U n="statistic_set">
-          <T n="stat">15047392364791015610<!--Halfwolf102:statistic_Object_Upgrade_Thermostat_Auto--></T>
+          <T n="stat">275009<!--statistic_Object_Upgrade_Generic_Slot1--></T>
           <V t="participant" n="subject">
             <E n="participant">Object</E>
           </V>
