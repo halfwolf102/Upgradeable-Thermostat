@@ -1,37 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<I c="SuperInteraction" i="interaction" m="interactions.base.super_interaction" n="Halfwolf102:Thermostat_SetMedium_AutoOn" s="3148257460408104707">
-  <L n="_constraints">
-    <U>
-      <L n="constraints">
-        <U>
-          <V n="value" t="circle">
-            <U n="circle">
-              <T n="radius">2</T>
-              <T n="require_los">False</T>
-            </U>
-          </V>
-        </U>
-        <U>
-          <V n="value" t="facing" />
-        </U>
-        <U>
-          <V n="value" t="line_of_sight" />
-        </U>
-      </L>
-    </U>
-  </L>
+<I c="SuperInteraction" i="interaction" m="interactions.base.super_interaction" n="Halfwolf102:Thermostat_Upgrade_LockBrokenness_CompletedDisplay" s="9399009933579384811">
   <V n="_saveable" t="enabled" />
   <T n="allow_autonomous">False</T>
   <T n="attention_cost">0.5</T>
-  <V n="basic_content" t="one_shot">
-    <U n="one_shot">
-      <U n="animation_ref">
-        <T n="factory">188908<!--thermostat_UseRemote--></T>
-      </U>
-    </U>
-  </V>
+  <T n="category">15502<!--pieMenuCategory_Upgrade--></T>
   <V n="content_score" t="disabled" />
-  <T n="display_name">0xF85DC7E6<!--Set Thermostat: Off--></T>
+  <T n="display_name">0xD33652E7<!--Crytacoo Casing--></T>
   <U n="display_name_text_tokens">
     <L n="tokens">
       <V t="participant_type">
@@ -58,20 +32,16 @@
     <E>Interaction_Super</E>
     <E>Interaction_All</E>
   </L>
-  <V n="outcome" t="test_based">
-    <U n="test_based">
-      <L n="fallback_outcomes">
-        <U>
-          <U n="outcome">
-            <L n="loot_list">
-              <T>190654<!--loot_Thermostat_GlobalBuff_Medium--></T>
-            </L>
-          </U>
-        </U>
-      </L>
-      <L n="tested_outcomes" />
-    </U>
+  <V n="pie_menu_icon" t="enabled">
+    <V n="enabled" t="resource_key">
+      <U n="resource_key">
+        <T n="key" p="InGame\UI\Icons\Clubs\DropDownIcons\icon_do_this.png">2f7d0004:00000000:7d6ce658c6cde7a9</T>
+      </U>
+    </V>
   </V>
+  <U n="progress_bar_enabled">
+    <T n="bar_enabled">False</T>
+  </U>
   <E n="scoring_priority">NORMAL</E>
   <T n="subaction_selection_weight">1</T>
   <E n="target_type">OBJECT</E>
@@ -89,6 +59,12 @@
         <E n="who">Actor</E>
       </U>
     </V>
+    <V t="lot_owner">
+      <U n="lot_owner">
+        <T n="owns_lot">True</T>
+        <E n="subject">ActiveHousehold</E>
+      </U>
+    </V>
     <V t="state">
       <U n="state">
         <E n="operator">NOTEQUAL</E>
@@ -97,17 +73,17 @@
     </V>
     <V t="state">
       <U n="state">
-        <E n="operator">EQUAL</E>
-        <T n="value">5451228909861312593<!--Halfwolf102:thermostat_AutoState_On--></T>
+        <T n="value">15384<!--Upgrade_Generic_LockBrokenness_Completed--></T>
+      </U>
+    </V>
+    <V t="state">
+      <U n="state">
+        <V n="tooltip" t="enabled">
+          <T n="enabled">0x4650161A<!--This casing is guaranteed to never break--></T>
+        </V>
+        <T n="value">15385<!--Upgrade_Generic_LockBrokenness_NotStarted--></T>
       </U>
     </V>
   </L>
   <T n="time_overhead">30</T>
-  <V n="utility_info" t="enabled">
-    <L n="enabled">
-      <U>
-        <E n="key">POWER</E>
-      </U>
-    </L>
-  </V>
 </I>

@@ -165,6 +165,12 @@
     </V>
     <V t="state">
       <U n="state">
+        <E n="operator">NOTEQUAL</E>
+        <T n="value">15080<!--BrokenState_Broken--></T>
+      </U>
+    </V>
+    <V t="state">
+      <U n="state">
         <E n="operator">EQUAL</E>
         <T n="value">3154629786164256605<!--Halfwolf102:thermostat_AutoState_Off--></T>
       </U>

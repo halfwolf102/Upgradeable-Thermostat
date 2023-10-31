@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="Halfwolf102:loot_cheat_Thermostat_LockBrokenness_Unlock" s="1113255378666864450">
+  <L n="loot_actions">
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">15384<!--Upgrade_Generic_LockBrokenness_Completed--></T>
+        <V t="participant" n="subject">
+          <E n="participant">Object</E>
+        </V>
+      </U>
+    </V>
+    <V t="statistics">
+      <V n="statistics" t="statistic_set">
+        <U n="statistic_set">
+          <T n="stat">16683<!--statistic_Object_Upgrade_GenericLockBrokenness--></T>
+          <V t="participant" n="subject">
+            <E n="participant">Object</E>
+          </V>
+          <T n="value">100</T>
+        </U>
+      </V>
+    </V>
+  </L>
+</I>

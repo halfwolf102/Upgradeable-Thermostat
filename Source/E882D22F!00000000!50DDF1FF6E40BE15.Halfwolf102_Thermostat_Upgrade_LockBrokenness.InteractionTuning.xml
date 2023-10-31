@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<I c="SuperInteraction" i="interaction" m="interactions.base.super_interaction" n="Halfwolf102:Thermostat_Upgrade_Auto_resume" s="13064866120638038911">
+<I c="SuperInteraction" i="interaction" m="interactions.base.super_interaction" n="Halfwolf102:Thermostat_Upgrade_LockBrokenness" s="5827079572255981077">
   <L n="_constraints">
     <U>
       <L n="constraints">
@@ -57,7 +57,7 @@
             <L n="conditions">
               <V t="stat_based">
                 <U n="stat_based">
-                  <T n="stat">15047392364791015610<!--Halfwolf102:statistic_Object_Upgrade_Thermostat_Auto--></T>
+                  <T n="stat">16683<!--statistic_Object_Upgrade_GenericLockBrokenness--></T>
                   <U n="threshold">
                     <T n="value">100</T>
                   </U>
@@ -98,7 +98,7 @@
             <V t="statistic_change">
               <U n="statistic_change">
                 <T n="amount">0.833</T>
-                <T n="stat">15047392364791015610<!--Halfwolf102:statistic_Object_Upgrade_Thermostat_Auto--></T>
+                <T n="stat">16683<!--statistic_Object_Upgrade_GenericLockBrokenness--></T>
                 <L n="subject">
                   <E>Object</E>
                 </L>
@@ -107,7 +107,7 @@
             <V t="statistic_change">
               <U n="statistic_change">
                 <T n="amount">0.833</T>
-                <T n="stat">15047392364791015610<!--Halfwolf102:statistic_Object_Upgrade_Thermostat_Auto--></T>
+                <T n="stat">16683<!--statistic_Object_Upgrade_GenericLockBrokenness--></T>
                 <L n="subject">
                   <E>Object</E>
                 </L>
@@ -164,7 +164,7 @@
             <V t="statistic_change">
               <U n="statistic_change">
                 <T n="amount">0.5</T>
-                <T n="stat">15047392364791015610<!--Halfwolf102:statistic_Object_Upgrade_Thermostat_Auto--></T>
+                <T n="stat">16683<!--statistic_Object_Upgrade_GenericLockBrokenness--></T>
                 <L n="subject">
                   <E>Object</E>
                 </L>
@@ -190,6 +190,7 @@
               </U>
             </V>
           </L>
+          <T n="trigger_gain_on_start">True</T>
         </U>
       </V>
       <T n="start_autonomous_inertial">False</T>
@@ -374,7 +375,7 @@
   </V>
   <T n="category">15502<!--pieMenuCategory_Upgrade--></T>
   <V n="content_score" t="disabled" />
-  <T n="display_name">0xF7D83F38<!--Continue Upgrading Temperature Sensor--></T>
+  <T n="display_name">0xD33652E7<!--Crytacoo Casing--></T>
   <V n="display_name_overrides" t="testable">
     <U n="testable">
       <L n="overrides">
@@ -416,7 +417,7 @@
     </L>
   </U>
   <V n="display_tooltip" t="enabled">
-    <T n="enabled">0xDC3BE83D<!--With a temperature sensor, thermostat can run automatically.--></T>
+    <T n="enabled">0x4650161A<!--This casing is guaranteed to never break--></T>
   </V>
   <L n="interaction_category_tags">
     <E>Interaction_Upgrade</E>
@@ -424,6 +425,20 @@
     <E>Interaction_All</E>
     <E>Interaction_Skill_Handiness</E>
   </L>
+  <V n="item_cost" t="explicit_item_cost">
+    <U n="explicit_item_cost">
+      <L n="ingredients">
+        <U>
+          <T n="ingredient">22678</T><!--Common Upgrade Part-->
+          <T n="quantity">2</T>
+        </U>
+        <U>
+          <T n="ingredient">22671</T><!--Electric Upgrade Part-->
+          <T n="quantity">2</T>
+        </U>
+      </L>
+    </U>
+  </V>
   <L n="joinable">
     <U>
       <V n="invite_available" t="enabled">
@@ -553,6 +568,8 @@
     </V>
     <V t="lot_owner">
       <U n="lot_owner">
+        <T n="consider_business_lot_as_owned">True</T>
+        <T n="consider_rented_lot_as_owned">False</T>
         <T n="owns_lot">True</T>
         <E n="subject">ActiveHousehold</E>
       </U>
@@ -565,7 +582,7 @@
     </V>
     <V t="state">
       <U n="state">
-        <T n="value">13419583200880891987<!--Halfwolf102:upgrade_Thermostat_Auto_Partial--></T>
+        <T n="value">15385<!--Upgrade_Generic_LockBrokenness_NotStarted--></T>
       </U>
     </V>
     <V t="state">
@@ -589,12 +606,12 @@
         <V n="skill_range" t="interval">
           <U n="interval">
             <U n="skill_interval">
-              <T n="lower_bound">7</T>
+              <T n="lower_bound">8</T>
             </U>
           </U>
         </V>
         <V n="tooltip" t="enabled">
-          <T n="enabled">0xECDD4B43<!--{0.SimFirstName} needs level 7 Handiness skill to add this upgrade.--></T>
+          <T n="enabled">0xD66C7842<!--{0.SimFirstName} needs level 8 Handiness skill to add this upgrade.--></T>
         </V>
       </U>
     </V>
