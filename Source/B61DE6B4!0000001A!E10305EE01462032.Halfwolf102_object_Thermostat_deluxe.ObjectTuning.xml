@@ -195,15 +195,6 @@
                             </L>
                           </U>
                         </L>
-                        <U n="periodic_statistic_change">
-                          <T n="interval">10</T>
-                          <L n="operations">
-                            <U>
-                              <T n="amount">-0.0694</T>
-                              <T n="stat">233027<!--commodity_Utilities_Power--></T>
-                            </U>
-                          </L>
-                        </U>
                       </U>
                     </V>
                   </V>
@@ -397,7 +388,7 @@
                             <V n="modifier" t="multipliers">
                               <U n="multipliers">
                                 <U n="value">
-                                  <T n="base_value">-0.00694</T>
+                                  <T n="base_value">-0.006946</T>
                                   <L n="multipliers">
                                     <U>
                                       <T n="multiplier">0.8</T>
@@ -476,7 +467,7 @@
                             <V n="modifier" t="multipliers">
                               <U n="multipliers">
                                 <U n="value">
-                                  <T n="base_value">-0.00694</T>
+                                  <T n="base_value">-0.006946</T>
                                   <L n="multipliers">
                                     <U>
                                       <T n="multiplier">0.8</T>
@@ -584,7 +575,7 @@
                             <V n="modifier" t="multipliers">
                               <U n="multipliers">
                                 <U n="value">
-                                  <T n="base_value">-0.00694</T>
+                                  <T n="base_value">-0.006946</T>
                                   <L n="multipliers">
                                     <U>
                                       <T n="multiplier">0.8</T>
@@ -663,7 +654,7 @@
                             <V n="modifier" t="multipliers">
                               <U n="multipliers">
                                 <U n="value">
-                                  <T n="base_value">-0.00694</T>
+                                  <T n="base_value">-0.006946</T>
                                   <L n="multipliers">
                                     <U>
                                       <T n="multiplier">0.8</T>
