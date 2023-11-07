@@ -541,7 +541,16 @@
                   <V n="autonomy_modifiers" t="apply_new_value">
                     <V n="apply_new_value" t="apply_statistic_modifiers">
                       <U n="apply_statistic_modifiers">
-                        <L n="lot_statistic_modifiers" />
+                        <L n="lot_statistic_modifiers">
+                          <U>
+                            <V n="modifier" t="basic_value">
+                              <U n="basic_value">
+                                <T n="value">-0.0003473</T>
+                              </U>
+                            </V>
+                            <T n="statistic">233027<!--commodity_Utilities_Power--></T>
+                          </U>
+                        </L>
                         <U n="periodic_statistic_change">
                           <T n="interval">60</T>
                           <L n="operations">
