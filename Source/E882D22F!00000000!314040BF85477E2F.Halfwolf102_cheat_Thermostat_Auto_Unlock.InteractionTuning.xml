@@ -2,7 +2,7 @@
 <I c="ImmediateSuperInteraction" i="interaction" m="interactions.base.immediate_interaction" n="Halfwolf102:cheat_Thermostat_Auto_Unlock" s="3548907697686937135">
   <V n="_saveable" t="disabled" />
   <T n="allow_user_directed">True</T>
-  <T n="category">274721<!--pieMenuCategory_Cheats_Main--></T>
+  <T n="category">12963585796761045834<!--Halfwolf102:PieMenuCategory_Cheats_Upgradeable_Thermostat_upgrades--></T>
   <T n="cheat">True</T>
   <V n="content_score" t="disabled" />
   <T n="debug">True</T>
