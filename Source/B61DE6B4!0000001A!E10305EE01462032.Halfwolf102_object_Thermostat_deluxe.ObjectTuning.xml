@@ -242,6 +242,19 @@
           <U>
             <L n="client_states">
               <U>
+                <T n="key">15958921087716997919<!--Halfwolf102:thermostat_opstate_normal--></T>
+              </U>
+              <U>
+                <T n="key">15465489218942015149<!--Halfwolf102:thermostat_opstate_inverted--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">15958921087716997919<!--Halfwolf102:thermostat_opstate_normal--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
                 <T n="key">3154629786164256605<!--Halfwolf102:thermostat_AutoState_Off--></T>
               </U>
               <U>
@@ -758,6 +771,8 @@
     <T>3548907697686937135<!--Halfwolf102:cheat_Thermostat_Auto_Unlock--></T>
     <T>7080592669505880425<!--Halfwolf102:cheat_Thermostat_EnergyEfficiency_Unlock--></T>
     <T>8179174644774532449<!--Halfwolf102:cheat_Thermostat_LockBrokenness_Unlock--></T>
+    <T>9844165715344042139<!--Halfwolf102:cheat_Thermostat_Opstate_Normal--></T>
+    <T>11093287625058240553<!--Halfwolf102:cheat_Thermostat_Opstate_Inverted--></T>
     <T>13287646958440881458<!--Halfwolf102:Thermostat_SetAuto--></T>
     <T>5676947695433561610<!--Halfwolf102:Thermostat_SetHigh_AutoOff--></T>
     <T>9019585887282725356<!--Halfwolf102:Thermostat_SetHigh_AutoOn--></T>

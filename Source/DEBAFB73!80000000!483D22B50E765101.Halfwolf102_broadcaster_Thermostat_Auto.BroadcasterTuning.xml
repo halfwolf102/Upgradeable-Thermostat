@@ -24,6 +24,34 @@
             </V>
             <V t="state">
               <U n="state">
+                <T n="value">15958921087716997919<!--Halfwolf102:thermostat_opstate_normal--></T>
+                <E n="who">Object</E>
+              </U>
+            </V>
+            <V t="state">
+              <U n="state">
+                <T n="value">5451228909861312593<!--Halfwolf102:thermostat_AutoState_On--></T>
+                <E n="who">Object</E>
+              </U>
+            </V>
+          </L>
+          <L>
+            <V t="weather_type">
+              <U n="weather_type">
+                <L n="weather_types">
+                  <E>Hot</E>
+                  <E>Burning</E>
+                </L>
+              </U>
+            </V>
+            <V t="state">
+              <U n="state">
+                <T n="value">15465489218942015149<!--Halfwolf102:thermostat_opstate_inverted--></T>
+                <E n="who">Object</E>
+              </U>
+            </V>
+            <V t="state">
+              <U n="state">
                 <T n="value">5451228909861312593<!--Halfwolf102:thermostat_AutoState_On--></T>
                 <E n="who">Object</E>
               </U>
@@ -44,6 +72,34 @@
                   <E>Hot</E>
                   <E>Burning</E>
                 </L>
+              </U>
+            </V>
+            <V t="state">
+              <U n="state">
+                <T n="value">15958921087716997919<!--Halfwolf102:thermostat_opstate_normal--></T>
+                <E n="who">Object</E>
+              </U>
+            </V>
+            <V t="state">
+              <U n="state">
+                <T n="value">5451228909861312593<!--Halfwolf102:thermostat_AutoState_On--></T>
+                <E n="who">Object</E>
+              </U>
+            </V>
+          </L>
+          <L>
+            <V t="weather_type">
+              <U n="weather_type">
+                <L n="weather_types">
+                  <E>Cold</E>
+                  <E>Freezing</E>
+                </L>
+              </U>
+            </V>
+            <V t="state">
+              <U n="state">
+                <T n="value">15465489218942015149<!--Halfwolf102:thermostat_opstate_inverted--></T>
+                <E n="who">Object</E>
               </U>
             </V>
             <V t="state">
@@ -100,6 +156,34 @@
             </V>
             <V t="state">
               <U n="state">
+                <T n="value">15958921087716997919<!--Halfwolf102:thermostat_opstate_normal--></T>
+                <E n="who">Object</E>
+              </U>
+            </V>
+            <V t="state">
+              <U n="state">
+                <T n="value">5451228909861312593<!--Halfwolf102:thermostat_AutoState_On--></T>
+                <E n="who">Object</E>
+              </U>
+            </V>
+          </L>
+          <L>
+            <V t="weather_type">
+              <U n="weather_type">
+                <L n="weather_types">
+                  <E>Hot</E>
+                  <E>Burning</E>
+                </L>
+              </U>
+            </V>
+            <V t="state">
+              <U n="state">
+                <T n="value">15465489218942015149<!--Halfwolf102:thermostat_opstate_inverted--></T>
+                <E n="who">Object</E>
+              </U>
+            </V>
+            <V t="state">
+              <U n="state">
                 <T n="value">5451228909861312593<!--Halfwolf102:thermostat_AutoState_On--></T>
                 <E n="who">Object</E>
               </U>
@@ -121,6 +205,34 @@
                   <E>Hot</E>
                   <E>Burning</E>
                 </L>
+              </U>
+            </V>
+            <V t="state">
+              <U n="state">
+                <T n="value">15958921087716997919<!--Halfwolf102:thermostat_opstate_normal--></T>
+                <E n="who">Object</E>
+              </U>
+            </V>
+            <V t="state">
+              <U n="state">
+                <T n="value">5451228909861312593<!--Halfwolf102:thermostat_AutoState_On--></T>
+                <E n="who">Object</E>
+              </U>
+            </V>
+          </L>
+          <L>
+            <V t="weather_type">
+              <U n="weather_type">
+                <L n="weather_types">
+                  <E>Cold</E>
+                  <E>Freezing</E>
+                </L>
+              </U>
+            </V>
+            <V t="state">
+              <U n="state">
+                <T n="value">15465489218942015149<!--Halfwolf102:thermostat_opstate_normal--></T>
+                <E n="who">Object</E>
               </U>
             </V>
             <V t="state">
