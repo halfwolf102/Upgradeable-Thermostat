@@ -843,6 +843,10 @@
     <T>13326<!--debug_ObjectDestroy--></T>
     <T>103888<!--cheat_set_as_head--></T>
     <T>13319<!--debug_BreakObject--></T>
+    <T>15374860343544067355<!--Halfwolf102:debug_thermostat_SetHigh--></T>
+    <T>13123327370355536510<!--Halfwolf102:debug_thermostat_SetMedium--></T>
+    <T>10627926991620759871<!--Halfwolf102:debug_thermostat_SetLow--></T>
+    <T>9663647303418538190<!--Halfwolf102:debug_thermostat_SetAuto--></T>
     <T>13327<!--debug_RepairObject--></T>
     <T>99087<!--object_ReplaceBrokenObject--></T>
     <T>34922<!--object_Repair_StereoTV--></T>
