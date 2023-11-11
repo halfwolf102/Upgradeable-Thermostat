@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<I c="SuperInteraction" i="interaction" m="interactions.base.super_interaction" n="Halfwolf102:Thermostat_SetLow_AutoOff" s="11248297919635204446">
+<I c="SuperInteraction" i="interaction" m="interactions.base.super_interaction" n="Halfwolf102:Thermostat_SetHigh" s="9798621686364652943">
   <L n="_constraints">
     <U>
       <L n="constraints">
@@ -31,16 +31,16 @@
     </U>
   </V>
   <V n="content_score" t="disabled" />
-  <T n="display_name">0x8061535<!--Set Thermostat: Cooler--></T>
+  <T n="display_name">0x15C52E5F<!--Set Thermostat: Warmer--></T>
   <V n="display_name_overrides" t="testable">
     <U n="testable">
       <L n="overrides">
         <U>
           <V n="new_display_name" t="enabled">
-            <T n="enabled">0xE973515D<!--Set Thermostat: Cooler (Saves Money)--></T>
+            <T n="enabled">0xDDE825F9<!--Set Thermostat: Warmer (Costs More)--></T>
           </V>
           <V n="new_display_tooltip" t="enabled">
-            <T n="enabled">0xEE42B77<!--It's cold out, so setting this to cooler will save your house some money!--></T>
+            <T n="enabled">0x3817A52B<!--It’s cold out, so setting this to warmer will increase your power bill!--></T>
           </V>
           <L n="test">
             <L>
@@ -59,10 +59,10 @@
         </U>
         <U>
           <V n="new_display_name" t="enabled">
-            <T n="enabled">0xD09E8932<!--Set Thermostat: Cooler (Costs More)--></T>
+            <T n="enabled">0xD453A5E7<!--Set Thermostat: Warmer (Saves Money)--></T>
           </V>
           <V n="new_display_tooltip" t="enabled">
-            <T n="enabled">0x6ABA4E8A<!--It's warm out, so setting this to cooler will increase your power bill!--></T>
+            <T n="enabled">0xEA049CC9<!--It's warm out, so setting this to warmer will save your house some money!--></T>
           </V>
           <L n="test">
             <L>
@@ -82,7 +82,7 @@
         <U>
           <V n="new_display_name" t="disabled" />
           <V n="new_display_tooltip" t="enabled">
-            <T n="enabled">0x4EC0BDC9<!--This will lower the temperature in your home, but raise your power bill!--></T>
+            <T n="enabled">0xB15B34B1<!--This will raise the temperature in your home, but raise your power bill!--></T>
           </V>
           <L n="test">
             <L>
@@ -126,7 +126,7 @@
     </L>
   </U>
   <V n="display_tooltip" t="enabled">
-    <T n="enabled">0x2A3D3D07<!--This will lower the temperature indoors.--></T>
+    <T n="enabled">0x46E63965<!--This will raise the temperature indoors.--></T>
   </V>
   <L n="interaction_category_tags">
     <E>Interaction_Super</E>
@@ -138,7 +138,7 @@
         <U>
           <U n="outcome">
             <L n="loot_list">
-              <T>190653<!--loot_Thermostat_GlobalBuff_Low--></T>
+              <T>190650<!--loot_Thermostat_GlobalBuff_High--></T>
             </L>
           </U>
         </U>
@@ -171,17 +171,11 @@
     </V>
     <V t="state">
       <U n="state">
-        <E n="operator">EQUAL</E>
-        <T n="value">3154629786164256605<!--Halfwolf102:thermostat_AutoState_Off--></T>
-      </U>
-    </V>
-    <V t="state">
-      <U n="state">
         <E n="operator">NOTEQUAL</E>
         <V n="tooltip" t="enabled">
-          <T n="enabled">0x544AE835<!--Thermostat already set to Cooler--></T>
+          <T n="enabled">0xE3491DC7<!--Thermostat already set to Warmer--></T>
         </V>
-        <T n="value">187698<!--Thermostat_LotStat_Setting_Low--></T>
+        <T n="value">190859<!--thermostat_GeoState_High--></T>
       </U>
     </V>
   </L>
