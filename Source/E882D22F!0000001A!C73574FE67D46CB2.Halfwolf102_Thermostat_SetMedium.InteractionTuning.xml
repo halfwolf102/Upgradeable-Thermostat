@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<I c="SuperInteraction" i="interaction" m="interactions.base.super_interaction" n="Halfwolf102:Thermostat_SetMedium_AutoOn" s="3148257460408104707">
+<I c="SuperInteraction" i="interaction" m="interactions.base.super_interaction" n="Halfwolf102:Thermostat_SetMedium" s="14354508023325813938">
   <L n="_constraints">
     <U>
       <L n="constraints">
@@ -97,8 +97,11 @@
     </V>
     <V t="state">
       <U n="state">
-        <E n="operator">EQUAL</E>
-        <T n="value">5451228909861312593<!--Halfwolf102:thermostat_AutoState_On--></T>
+        <E n="operator">NOTEQUAL</E>
+        <V n="tooltip" t="enabled">
+          <T n="enabled">0x5BA7D87E<!--Thermostat already set to Off--></T>
+        </V>
+        <T n="value">190858<!--thermostat_GeoState_Off--></T>
       </U>
     </V>
   </L>

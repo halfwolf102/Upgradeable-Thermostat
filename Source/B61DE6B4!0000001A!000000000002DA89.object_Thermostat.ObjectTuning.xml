@@ -853,12 +853,9 @@
     <T>9844165715344042139<!--Halfwolf102:cheat_Thermostat_Opstate_Normal--></T>
     <T>11093287625058240553<!--Halfwolf102:cheat_Thermostat_Opstate_Inverted--></T>
     <T>13287646958440881458<!--Halfwolf102:Thermostat_SetAuto--></T>
-    <T>5676947695433561610<!--Halfwolf102:Thermostat_SetHigh_AutoOff--></T>
-    <T>9019585887282725356<!--Halfwolf102:Thermostat_SetHigh_AutoOn--></T>
-    <T>6249866892313921495<!--Halfwolf102:Thermostat_SetMedium_AutoOff--></T>
-    <T>3148257460408104707<!--Halfwolf102:Thermostat_SetMedium_AutoOn--></T>
-    <T>11248297919635204446<!--Halfwolf102:Thermostat_SetLow_AutoOff--></T>
-    <T>10191710712569947616<!--Halfwolf102:Thermostat_SetLow_AutoOn--></T>
+    <T>9798621686364652943<!--Halfwolf102:Thermostat_SetHigh--></T>
+    <T>14354508023325813938<!--Halfwolf102:Thermostat_SetMedium--></T>
+    <T>12559043427162557147<!--Halfwolf102:Thermostat_SetLow--></T>
     <T>2095374575036934227<!--Halfwolf102:Thermostat_Upgrade_Auto--></T>
     <T>12545879768697117006<!--Halfwolf102:Thermostat_ecoUpgrade_Auto--></T>
     <T>13064866120638038911<!--Halfwolf102:Thermostat_Upgrade_Auto_resume--></T>
