@@ -33,6 +33,9 @@
       <U n="state">
         <E n="operator">NOTEQUAL</E>
         <T n="value">15958921087716997919<!--Halfwolf102:upgradeable_thermostat_opstate_normal--></T>
+        <V n="tooltip" t="enabled">
+          <T n="enabled">0xFE2F222D<!--Currently Active--></T>
+        </V>
       </U>
     </V>
   </L>
