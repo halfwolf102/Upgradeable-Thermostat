@@ -485,7 +485,7 @@
                           <T n="interval">60</T>
                           <L n="operations">
                             <U>
-                              <T n="amount">-0.25</T>
+                              <T n="amount">-0.16</T>
                               <T n="stat">16633<!--commodity_Object_Brokenness--></T>
                             </U>
                           </L>
@@ -564,7 +564,7 @@
                           <T n="interval">60</T>
                           <L n="operations">
                             <U>
-                              <T n="amount">-0.25</T>
+                              <T n="amount">-0.16</T>
                               <T n="stat">16633<!--commodity_Object_Brokenness--></T>
                             </U>
                           </L>
@@ -613,7 +613,7 @@
                           <T n="interval">60</T>
                           <L n="operations">
                             <U>
-                              <T n="amount">-0.1</T>
+                              <T n="amount">-0.064</T>
                               <T n="stat">16633<!--commodity_Object_Brokenness--></T>
                             </U>
                           </L>
@@ -681,7 +681,7 @@
                           <T n="interval">60</T>
                           <L n="operations">
                             <U>
-                              <T n="amount">-0.25</T>
+                              <T n="amount">-0.16</T>
                               <T n="stat">16633<!--commodity_Object_Brokenness--></T>
                             </U>
                           </L>
@@ -760,7 +760,7 @@
                           <T n="interval">60</T>
                           <L n="operations">
                             <U>
-                              <T n="amount">-0.25</T>
+                              <T n="amount">-0.16</T>
                               <T n="stat">16633<!--commodity_Object_Brokenness--></T>
                             </U>
                           </L>
