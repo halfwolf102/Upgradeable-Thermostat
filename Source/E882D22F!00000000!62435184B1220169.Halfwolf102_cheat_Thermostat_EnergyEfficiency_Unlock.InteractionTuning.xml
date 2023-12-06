@@ -2,7 +2,7 @@
 <I c="ImmediateSuperInteraction" i="interaction" m="interactions.base.immediate_interaction" n="Halfwolf102:cheat_Thermostat_EnergyEfficiency_Unlock" s="7080592669505880425">
   <V n="_saveable" t="disabled" />
   <T n="allow_user_directed">True</T>
-  <T n="category">274721<!--pieMenuCategory_Cheats_Main--></T>
+  <T n="category">12963585796761045834<!--Halfwolf102:PieMenuCategory_Cheats_Upgradeable_Thermostat_upgrades--></T>
   <T n="cheat">True</T>
   <V n="content_score" t="disabled" />
   <T n="debug">True</T>
@@ -25,6 +25,7 @@
       <L n="tested_outcomes" />
     </U>
   </V>
+  <T n="pie_menu_priority">7</T>
   <U n="progress_bar_enabled">
     <T n="bar_enabled">False</T>
   </U>
@@ -33,7 +34,7 @@
     <V t="state">
       <U n="state">
         <E n="operator">NOTEQUAL</E>
-        <T n="value">2610234671876013873<!--Halfwolf102:upgrade_Thermostat_Thermostat_EnergyEfficiency_Complete--></T>
+        <T n="value">233852<!--upgrade_Completed__EcoUpgrades_EnergyEfficientDrive--></T>
       </U>
     </V>
   </L>
