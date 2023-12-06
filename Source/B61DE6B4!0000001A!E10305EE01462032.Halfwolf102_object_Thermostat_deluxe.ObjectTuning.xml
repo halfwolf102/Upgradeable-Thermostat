@@ -24,11 +24,54 @@
               <E n="key">POWER</E>
               <L n="value">
                 <T>187699<!--Thermostat_LotStat_Setting_Medium--></T>
+                <T>3154629786164256605<!--Halfwolf102:thermostat_AutoState_Off--></T>
+                <T>239919<!--ecoFootprint_EnergyEfficient_Off--></T>
               </L>
             </U>
           </L>
         </V>
         <L n="state_triggers">
+          <U>
+            <L n="at_states">
+              <T>15076<!--Brokenness_Broken--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>15080<!--BrokenState_Broken--></T>
+                <T>187699<!--Thermostat_LotStat_Setting_Medium--></T>
+                <T>3154629786164256605<!--Halfwolf102:thermostat_AutoState_Off--></T>
+                <T>239919<!--ecoFootprint_EnergyEfficient_Off--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>15078<!--Brokenness_Unbroken--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>15081<!--BrokenState_Unbroken--></T>
+              </L>
+            </V>
+            <L n="statistic_operations">
+              <V t="statistic_set_min">
+                <U n="statistic_set_min">
+                  <T n="stat">208412</T>
+                </U>
+              </V>
+            </L>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>15078<!--Brokenness_Unbroken--></T>
+              <T>233852<!--upgrade_Completed__EcoUpgrades_EnergyEfficientDrive--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>239918<!--ecoFootprint_EnergyEfficient_On--></T>
+              </L>
+            </V>
+          </U>
           <U>
             <L n="at_states">
               <T>77532<!--FireState_Burn_Material_Change_Replace--></T>
@@ -54,6 +97,7 @@
               <T>187698<!--Thermostat_LotStat_Setting_Low--></T>
               <T>39737<!--FireState_Burn_Material_Change_Not_Burning--></T>
               <T>3154629786164256605<!--Halfwolf102:thermostat_AutoState_Off--></T>
+              <T>15081<!--BrokenState_Unbroken--></T>
             </L>
             <V n="set_states" t="Set_state_list">
               <L n="Set_state_list">
@@ -66,6 +110,7 @@
               <T>187699<!--Thermostat_LotStat_Setting_Medium--></T>
               <T>39737<!--FireState_Burn_Material_Change_Not_Burning--></T>
               <T>3154629786164256605<!--Halfwolf102:thermostat_AutoState_Off--></T>
+              <T>15081<!--BrokenState_Unbroken--></T>
             </L>
             <V n="set_states" t="Set_state_list">
               <L n="Set_state_list">
@@ -78,6 +123,7 @@
               <T>187700<!--Thermostat_LotStat_Setting_High--></T>
               <T>39737<!--FireState_Burn_Material_Change_Not_Burning--></T>
               <T>3154629786164256605<!--Halfwolf102:thermostat_AutoState_Off--></T>
+              <T>15081<!--BrokenState_Unbroken--></T>
             </L>
             <V n="set_states" t="Set_state_list">
               <L n="Set_state_list">
@@ -90,6 +136,7 @@
               <T>187698<!--Thermostat_LotStat_Setting_Low--></T>
               <T>39737<!--FireState_Burn_Material_Change_Not_Burning--></T>
               <T>5451228909861312593<!--Halfwolf102:thermostat_AutoState_On--></T>
+              <T>15081<!--BrokenState_Unbroken--></T>
             </L>
             <V n="set_states" t="Set_state_list">
               <L n="Set_state_list">
@@ -102,6 +149,7 @@
               <T>187699<!--Thermostat_LotStat_Setting_Medium--></T>
               <T>39737<!--FireState_Burn_Material_Change_Not_Burning--></T>
               <T>5451228909861312593<!--Halfwolf102:thermostat_AutoState_On--></T>
+              <T>15081<!--BrokenState_Unbroken--></T>
             </L>
             <V n="set_states" t="Set_state_list">
               <L n="Set_state_list">
@@ -114,6 +162,7 @@
               <T>187700<!--Thermostat_LotStat_Setting_High--></T>
               <T>39737<!--FireState_Burn_Material_Change_Not_Burning--></T>
               <T>5451228909861312593<!--Halfwolf102:thermostat_AutoState_On--></T>
+              <T>15081<!--BrokenState_Unbroken--></T>
             </L>
             <V n="set_states" t="Set_state_list">
               <L n="Set_state_list">
@@ -123,6 +172,131 @@
           </U>
         </L>
         <L n="states">
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">15076<!--Brokenness_Broken--></T>
+              </U>
+              <U>
+                <T n="key">15077<!--Brokenness_Neutral--></T>
+              </U>
+              <U>
+                <T n="key">15078<!--Brokenness_Unbroken--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">15078<!--Brokenness_Unbroken--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">15080<!--BrokenState_Broken--></T>
+                <U n="value">
+                  <V n="autonomy_modifiers" t="apply_new_value">
+                    <V n="apply_new_value" t="apply_statistic_modifiers">
+                      <U n="apply_statistic_modifiers">
+                        <L n="autonomy_modifiers">
+                          <U>
+                            <L n="decay_modifiers">
+                              <U>
+                                <T n="key">208412</T>
+                                <T n="value">1</T>
+                              </U>
+                            </L>
+                          </U>
+                        </L>
+                      </U>
+                    </V>
+                  </V>
+                  <V n="material_state" t="apply_new_value">
+                    <U n="apply_new_value">
+                      <V n="state_name" t="set_to_custom_value">
+                        <T n="set_to_custom_value">Halfwolf102:thermostat_MatState_Broken</T>
+                      </V>
+                    </U>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <T n="key">15081<!--BrokenState_Unbroken--></T>
+                <U n="value">
+                  <V n="autonomy_modifiers" t="apply_new_value">
+                    <V n="apply_new_value" t="apply_statistic_modifiers">
+                      <U n="apply_statistic_modifiers">
+                        <L n="autonomy_modifiers">
+                          <U>
+                            <L n="decay_modifiers">
+                              <U>
+                                <T n="key">208412</T>
+                              </U>
+                            </L>
+                          </U>
+                        </L>
+                      </U>
+                    </V>
+                  </V>
+                  <V n="material_state" t="apply_new_value">
+                    <U n="apply_new_value">
+                      <V n="state_name" t="set_to_custom_value">
+                        <V n="state_name" t="set_to_default_value" />
+                      </V>
+                    </U>
+                  </V>
+                </U>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">15081<!--BrokenState_Unbroken--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">239918<!--ecoFootprint_EnergyEfficient_On--></T>
+                <U n="value">
+                  <V n="autonomy_modifiers" t="apply_new_value">
+                    <V n="apply_new_value" t="apply_statistic_modifiers">
+                      <U n="apply_statistic_modifiers">
+                        <L n="lot_statistic_modifiers">
+                          <U>
+                            <V n="modifier" t="basic_value">
+                              <U n="basic_value">
+                                <T n="value">-0.004375</T>
+                              </U>
+                            </V>
+                            <T n="statistic">233233<!--commodity_EcoFootprint_Lot--></T>
+                          </U>
+                        </L>
+                      </U>
+                    </V>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <T n="key">239919<!--ecoFootprint_EnergyEfficient_Off--></T>
+                <U n="value">
+                  <V n="autonomy_modifiers" t="apply_new_value" />
+                </U>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">239918<!--ecoFootprint_EnergyEfficient_On--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">15958921087716997919<!--Halfwolf102:thermostat_opstate_normal--></T>
+              </U>
+              <U>
+                <T n="key">15465489218942015149<!--Halfwolf102:thermostat_opstate_inverted--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">15958921087716997919<!--Halfwolf102:thermostat_opstate_normal--></T>
+            </V>
+          </U>
           <U>
             <L n="client_states">
               <U>
@@ -152,33 +326,49 @@
           <U>
             <L n="client_states">
               <U>
-                <T n="key">6195482010419633318<!--Halfwolf102:upgrade_Thermostat_Auto_NotStarted--></T>
+                <T n="key">275012<!--upgrade_NotStarted_Generic_Slot1--></T>
               </U>
               <U>
-                <T n="key">13419583200880891987<!--Halfwolf102:upgrade_Thermostat_Auto_Partial--></T>
+                <T n="key">275015<!--upgrade_Partial_Generic_Slot1--></T>
               </U>
               <U>
-                <T n="key">4076055836307821283<!--Halfwolf102:upgrade_Thermostat_Auto_Completed--></T>
+                <T n="key">275005<!--upgrade_Completed_Generic_Slot1--></T>
               </U>
             </L>
             <V n="default_value" t="reference">
-              <T n="reference">4076055836307821283<!--Halfwolf102:upgrade_Thermostat_Auto_Completed--></T>
+              <T n="reference">275005<!--upgrade_Completed_Generic_Slot1--></T>
             </V>
           </U>
           <U>
             <L n="client_states">
               <U>
-                <T n="key">5108503156620794432<!--Halfwolf102:upgrade_Thermostat_EnergyEfficiency_NotStarted--></T>
+                <T n="key">233856<!--upgrade_NotStarted_EcoUpgrades_EnergyEfficientDrive--></T>
               </U>
               <U>
-                <T n="key">5320231807744720637<!--Halfwolf102:upgrade_Thermostat_EnergyEfficiency_Partial--></T>
+                <T n="key">233870<!--upgrade_Partial__EcoUpgrades_EnergyEfficientDrive--></T>
               </U>
               <U>
-                <T n="key">2610234671876013873<!--Halfwolf102:upgrade_Thermostat_EnergyEfficiency_Completed--></T>
+                <T n="key">233852<!--upgrade_Completed__EcoUpgrades_EnergyEfficientDrive--></T>
               </U>
             </L>
             <V n="default_value" t="reference">
-              <T n="reference">2610234671876013873<!--Halfwolf102:upgrade_Thermostat_EnergyEfficiency_Completed--></T>
+              <T n="reference">233852<!--upgrade_Completed__EcoUpgrades_EnergyEfficientDrive--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">15385<!--Upgrade_Generic_LockBrokenness_NotStarted--></T>
+              </U>
+              <U>
+                <T n="key">15386<!--Upgrade_Generic_LockBrokenness_Partial--></T>
+              </U>
+              <U>
+                <T n="key">15384<!--Upgrade_Generic_LockBrokenness_Completed--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">15384<!--Upgrade_Generic_LockBrokenness_Completed--></T>
             </V>
           </U>
           <U>
@@ -256,7 +446,7 @@
                             <V n="modifier" t="multipliers">
                               <U n="multipliers">
                                 <U n="value">
-                                  <T n="base_value">-0.00694</T>
+                                  <T n="base_value">-0.006946</T>
                                   <L n="multipliers">
                                     <U>
                                       <T n="multiplier">0.8</T>
@@ -278,7 +468,7 @@
                                         <L>
                                           <V t="state">
                                             <U n="state">
-                                              <T n="value">2610234671876013873<!--Halfwolf102:upgrade_Thermostat_EnergyEfficiency_Completed--></T>
+                                              <T n="value">233852<!--upgrade_Completed__EcoUpgrades_EnergyEfficientDrive--></T>
                                             </U>
                                           </V>
                                         </L>
@@ -291,6 +481,15 @@
                             <T n="statistic">233027<!--commodity_Utilities_Power--></T>
                           </U>
                         </L>
+                        <U n="periodic_statistic_change">
+                          <T n="interval">60</T>
+                          <L n="operations">
+                            <U>
+                              <T n="amount">-0.16</T>
+                              <T n="stat">16633<!--commodity_Object_Brokenness--></T>
+                            </U>
+                          </L>
+                        </U>
                       </U>
                     </V>
                   </V>
@@ -326,7 +525,7 @@
                             <V n="modifier" t="multipliers">
                               <U n="multipliers">
                                 <U n="value">
-                                  <T n="base_value">-0.00694</T>
+                                  <T n="base_value">-0.006946</T>
                                   <L n="multipliers">
                                     <U>
                                       <T n="multiplier">0.8</T>
@@ -348,7 +547,7 @@
                                         <L>
                                           <V t="state">
                                             <U n="state">
-                                              <T n="value">2610234671876013873<!--Halfwolf102:upgrade_Thermostat_EnergyEfficiency_Completed--></T>
+                                              <T n="value">233852<!--upgrade_Completed__EcoUpgrades_EnergyEfficientDrive--></T>
                                             </U>
                                           </V>
                                         </L>
@@ -361,6 +560,15 @@
                             <T n="statistic">233027<!--commodity_Utilities_Power--></T>
                           </U>
                         </L>
+                        <U n="periodic_statistic_change">
+                          <T n="interval">60</T>
+                          <L n="operations">
+                            <U>
+                              <T n="amount">-0.16</T>
+                              <T n="stat">16633<!--commodity_Object_Brokenness--></T>
+                            </U>
+                          </L>
+                        </U>
                       </U>
                     </V>
                   </V>
@@ -388,12 +596,36 @@
               <U>
                 <T n="key">4586599154549429818<!--Halfwolf102:thermostat_GeoState_AutoOff--></T>
                 <U n="value">
-                  <V n="autonomy_modifiers" t="apply_new_value" />
+                  <V n="autonomy_modifiers" t="apply_new_value">
+                    <V n="apply_new_value" t="apply_statistic_modifiers">
+                      <U n="apply_statistic_modifiers">
+                        <L n="lot_statistic_modifiers">
+                          <U>
+                            <V n="modifier" t="basic_value">
+                              <U n="basic_value">
+                                <T n="value">-0.0003473</T>
+                              </U>
+                            </V>
+                            <T n="statistic">233027<!--commodity_Utilities_Power--></T>
+                          </U>
+                        </L>
+                        <U n="periodic_statistic_change">
+                          <T n="interval">60</T>
+                          <L n="operations">
+                            <U>
+                              <T n="amount">-0.064</T>
+                              <T n="stat">16633<!--commodity_Object_Brokenness--></T>
+                            </U>
+                          </L>
+                        </U>
+                      </U>
+                    </V>
+                  </V>
                   <V n="lot_statistic_modifiers" t="apply_new_value" />
                   <V n="material_state" t="apply_new_value">
                     <U n="apply_new_value">
                       <V n="state_name" t="set_to_custom_value">
-                        <T n="set_to_custom_value">UTMSAutoOff</T>
+                        <T n="set_to_custom_value">Halfwolf102:thermostat_MatState_AutoOff</T>
                       </V>
                     </U>
                   </V>
@@ -410,7 +642,7 @@
                             <V n="modifier" t="multipliers">
                               <U n="multipliers">
                                 <U n="value">
-                                  <T n="base_value">-0.00694</T>
+                                  <T n="base_value">-0.006946</T>
                                   <L n="multipliers">
                                     <U>
                                       <T n="multiplier">0.8</T>
@@ -432,7 +664,7 @@
                                         <L>
                                           <V t="state">
                                             <U n="state">
-                                              <T n="value">2610234671876013873<!--Halfwolf102:upgrade_Thermostat_EnergyEfficiency_Completed--></T>
+                                              <T n="value">233852<!--upgrade_Completed__EcoUpgrades_EnergyEfficientDrive--></T>
                                             </U>
                                           </V>
                                         </L>
@@ -445,6 +677,15 @@
                             <T n="statistic">233027<!--commodity_Utilities_Power--></T>
                           </U>
                         </L>
+                        <U n="periodic_statistic_change">
+                          <T n="interval">60</T>
+                          <L n="operations">
+                            <U>
+                              <T n="amount">-0.16</T>
+                              <T n="stat">16633<!--commodity_Object_Brokenness--></T>
+                            </U>
+                          </L>
+                        </U>
                       </U>
                     </V>
                   </V>
@@ -463,7 +704,7 @@
                   <V n="material_state" t="apply_new_value">
                     <U n="apply_new_value">
                       <V n="state_name" t="set_to_custom_value">
-                        <T n="set_to_custom_value">UTMSAutoWarmer</T>
+                        <T n="set_to_custom_value">Halfwolf102:thermostat_MatState_AutoHigh</T>
                       </V>
                     </U>
                   </V>
@@ -480,7 +721,7 @@
                             <V n="modifier" t="multipliers">
                               <U n="multipliers">
                                 <U n="value">
-                                  <T n="base_value">-0.00694</T>
+                                  <T n="base_value">-0.006946</T>
                                   <L n="multipliers">
                                     <U>
                                       <T n="multiplier">0.8</T>
@@ -502,7 +743,7 @@
                                         <L>
                                           <V t="state">
                                             <U n="state">
-                                              <T n="value">2610234671876013873<!--Halfwolf102:upgrade_Thermostat_EnergyEfficiency_Completed--></T>
+                                              <T n="value">233852<!--upgrade_Completed__EcoUpgrades_EnergyEfficientDrive--></T>
                                             </U>
                                           </V>
                                         </L>
@@ -515,6 +756,15 @@
                             <T n="statistic">233027<!--commodity_Utilities_Power--></T>
                           </U>
                         </L>
+                        <U n="periodic_statistic_change">
+                          <T n="interval">60</T>
+                          <L n="operations">
+                            <U>
+                              <T n="amount">-0.16</T>
+                              <T n="stat">16633<!--commodity_Object_Brokenness--></T>
+                            </U>
+                          </L>
+                        </U>
                       </U>
                     </V>
                   </V>
@@ -533,7 +783,7 @@
                   <V n="material_state" t="apply_new_value">
                     <U n="apply_new_value">
                       <V n="state_name" t="set_to_custom_value">
-                        <T n="set_to_custom_value">UTMSAutoCooler</T>
+                        <T n="set_to_custom_value">Halfwolf102:thermostat_MatState_AutoLow</T>
                       </V>
                     </U>
                   </V>
@@ -547,10 +797,44 @@
               </U>
             </L>
             <V n="default_value" t="reference">
-              <T n="reference">4586599154549429818<!--Halfwolf102:thermostat_GeoState_AutoOff--></T>
+              <T n="reference">190858<!--thermostat_GeoState_Off--></T>
             </V>
           </U>
         </L>
+      </U>
+    </V>
+    <V n="tooltip_component" t="enabled">
+      <U n="enabled">
+        <L n="custom_tooltips">
+          <U>
+            <L n="object_tests">
+              <L>
+                <V t="state">
+                  <U n="state">
+                    <T n="value">239918<!--ecoFootprint_EnergyEfficient_On--></T>
+                  </U>
+                </V>
+                <V t="game_option">
+                  <U n="game_option">
+                    <E n="gameplay_option">ECO_FOOTPRINT_GAMEPLAY</E>
+                  </U>
+                </V>
+              </L>
+            </L>
+            <L n="tooltip_fields">
+              <U>
+                <E n="key">header</E>
+                <U n="value">
+                  <V n="override_component_information" t="concatenate_with_component_fields" />
+                  <V n="text" t="single">
+                    <T n="single">0x5D0F1C0E<!--<font color='#4BA64A'>+ Green Eco Footprint</font>--></T>
+                  </V>
+                </U>
+              </U>
+            </L>
+          </U>
+        </L>
+        <T n="update_on_game_option_changed">True</T>
       </U>
     </V>
   </U>
@@ -558,15 +842,24 @@
     <T>13328<!--debug_Reset--></T>
     <T>13326<!--debug_ObjectDestroy--></T>
     <T>103888<!--cheat_set_as_head--></T>
+    <T>13319<!--debug_BreakObject--></T>
+    <T>13327<!--debug_RepairObject--></T>
+    <T>15374860343544067355<!--Halfwolf102:debug_thermostat_SetHigh--></T>
+    <T>13123327370355536510<!--Halfwolf102:debug_thermostat_SetMedium--></T>
+    <T>10627926991620759871<!--Halfwolf102:debug_thermostat_SetLow--></T>
+    <T>9663647303418538190<!--Halfwolf102:debug_thermostat_SetAuto--></T>
+    <T>99087<!--object_ReplaceBrokenObject--></T>
+    <T>34922<!--object_Repair_StereoTV--></T>
+    <T>129510<!--object_Hire_Repair_Service--></T>
     <T>3548907697686937135<!--Halfwolf102:cheat_Thermostat_Auto_Unlock--></T>
     <T>7080592669505880425<!--Halfwolf102:cheat_Thermostat_EnergyEfficiency_Unlock--></T>
+    <T>8179174644774532449<!--Halfwolf102:cheat_Thermostat_LockBrokenness_Unlock--></T>
+    <T>9844165715344042139<!--Halfwolf102:cheat_Thermostat_Opstate_Normal--></T>
+    <T>11093287625058240553<!--Halfwolf102:cheat_Thermostat_Opstate_Inverted--></T>
     <T>13287646958440881458<!--Halfwolf102:Thermostat_SetAuto--></T>
-    <T>5676947695433561610<!--Halfwolf102:Thermostat_SetHigh_AutoOff--></T>
-    <T>9019585887282725356<!--Halfwolf102:Thermostat_SetHigh_AutoOn--></T>
-    <T>6249866892313921495<!--Halfwolf102:Thermostat_SetMedium_AutoOff--></T>
-    <T>3148257460408104707<!--Halfwolf102:Thermostat_SetMedium_AutoOn--></T>
-    <T>11248297919635204446<!--Halfwolf102:Thermostat_SetLow_AutoOff--></T>
-    <T>10191710712569947616<!--Halfwolf102:Thermostat_SetLow_AutoOn--></T>
+    <T>9798621686364652943<!--Halfwolf102:Thermostat_SetHigh--></T>
+    <T>14354508023325813938<!--Halfwolf102:Thermostat_SetMedium--></T>
+    <T>12559043427162557147<!--Halfwolf102:Thermostat_SetLow--></T>
     <T>2095374575036934227<!--Halfwolf102:Thermostat_Upgrade_Auto--></T>
     <T>12545879768697117006<!--Halfwolf102:Thermostat_ecoUpgrade_Auto--></T>
     <T>13064866120638038911<!--Halfwolf102:Thermostat_Upgrade_Auto_resume--></T>
@@ -575,7 +868,24 @@
     <T>13218779235326325364<!--Halfwolf102:Thermostat_ecoUpgrade_EnergyEfficiency--></T>
     <T>9814816751042190917<!--Halfwolf102:Thermostat_Upgrade_EnergyEfficiency_resume--></T>
     <T>8414362439440653799<!--Halfwolf102:Thermostat_Upgrade_EnergyEfficiency_CompletedDisplay--></T>
+    <T>5827079572255981077<!--Halfwolf102:Thermostat_Upgrade_LockBrokenness--></T>
+    <T>3578916169207930360<!--Halfwolf102:Thermostat_ecoUpgrade_LockBrokenness--></T>
+    <T>3763485286856726065<!--Halfwolf102:Thermostat_Upgrade_LockBrokenness_resume--></T>
+    <T>9399009933579384811<!--Halfwolf102:Thermostat_Upgrade_LockBrokenness_CompletedDisplay--></T>
     <T>74457<!--fire_ReplaceBurntObject--></T>
+  </L>
+  <L n="autonomy_modifiers">
+    <U>
+      <L n="stat_use_multiplier">
+        <U>
+          <T n="key">16633<!--commodity_Object_Brokenness--></T>
+          <U n="value">
+            <E n="apply_direction">DECREASE</E>
+            <T n="multiplier">1</T>
+          </U>
+        </U>
+      </L>
+    </U>
   </L>
   <U n="recycling_data">
     <L n="recycling_values">

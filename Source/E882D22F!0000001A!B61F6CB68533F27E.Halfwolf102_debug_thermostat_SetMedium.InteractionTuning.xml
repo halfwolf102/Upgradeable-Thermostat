@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="ImmediateSuperInteraction" i="interaction" m="interactions.base.immediate_interaction" n="Halfwolf102:debug_thermostat_SetMedium" s="13123327370355536510">
+  <V n="_saveable" t="disabled" />
+  <T n="allow_user_directed">True</T>
+  <T n="category">10015729071011407770<!--Halfwolf102:PieMenuCategory_Cheats_Upgradeable_Thermostat_settings--></T>
+  <V n="content_score" t="disabled" />
+  <T n="debug">True</T>
+  <T n="display_name">0xF85DC7E6<!--Set Thermostat: Off--></T>
+  
+  <L n="interaction_category_tags">
+    <E>INVALID</E>
+  </L>
+  <U n="display_name_text_tokens">
+    <L n="tokens">
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Actor</E>
+            </U>
+          </V>
+        </U>
+      </V>
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Object</E>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+  </U>
+  <V n="outcome" t="test_based">
+    <U n="test_based">
+      <L n="fallback_outcomes">
+        <U>
+          <U n="outcome">
+            <L n="loot_list">
+              <T>190654<!--loot_Thermostat_GlobalBuff_Medium--></T>
+            </L>
+          </U>
+        </U>
+      </L>
+      <L n="tested_outcomes" />
+    </U>
+  </V>
+  <T n="pie_menu_priority">8</T>
+  <U n="progress_bar_enabled">
+    <T n="bar_enabled">False</T>
+  </U>
+  <E n="target_type">OBJECT</E>
+  <L n="test_globals">
+    <V t="sim_info">
+      <U n="sim_info">
+        <V n="ages" t="specified" />
+        <V n="species" t="specified">
+          <U n="specified">
+            <L n="species">
+              <E />
+            </L>
+          </U>
+        </V>
+        <E n="who">Actor</E>
+      </U>
+    </V>
+    <V t="state">
+      <U n="state">
+        <E n="operator">NOTEQUAL</E>
+        <T n="value">15080<!--BrokenState_Broken--></T>
+      </U>
+    </V>
+    <V t="state">
+      <U n="state">
+        <E n="operator">NOTEQUAL</E>
+        <V n="tooltip" t="enabled">
+          <T n="enabled">0x5BA7D87E<!--Thermostat already set to Off--></T>
+        </V>
+        <T n="value">190858<!--thermostat_GeoState_Off--></T>
+      </U>
+    </V>
+  </L>
+  <V n="utility_info" t="enabled">
+    <L n="enabled">
+      <U>
+        <E n="key">POWER</E>
+      </U>
+    </L>
+  </V>
+</I>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="ImmediateSuperInteraction" i="interaction" m="interactions.base.immediate_interaction" n="Halfwolf102:cheat_Thermostat_Opstate_Normal" s="9844165715344042139">
+  <V n="_saveable" t="disabled" />
+  <T n="allow_user_directed">True</T>
+  <T n="category">13778854194702472627<!--Halfwolf102:PieMenuCategory_Cheats_Upgradeable_Thermostat_operations--></T>
+  <T n="cheat">True</T>
+  <V n="content_score" t="disabled" />
+  <T n="debug">True</T>
+  <T n="display_name">0xFE595E21<!--Normal--></T>
+  <L n="interaction_category_tags">
+    <E>INVALID</E>
+  </L>
+  <V n="outcome" t="test_based">
+    <U n="test_based">
+      <L n="fallback_outcomes">
+        <U>
+          <U n="outcome">
+            <L n="loot_list">
+              <T>16515476325937759562<!--Halfwolf102:loot_cheat_Thermostat_Opstate_Normal--></T>
+            </L>
+          </U>
+        </U>
+      </L>
+      <L n="tested_outcomes" />
+    </U>
+  </V>
+  <U n="progress_bar_enabled">
+    <T n="bar_enabled">False</T>
+  </U>
+  <E n="target_type">OBJECT</E>
+  <L n="test_globals">
+    <V t="state">
+      <U n="state">
+        <E n="operator">NOTEQUAL</E>
+        <T n="value">15958921087716997919<!--Halfwolf102:upgradeable_thermostat_opstate_normal--></T>
+        <V n="tooltip" t="enabled">
+          <T n="enabled">0xFE2F222D<!--Currently Active--></T>
+        </V>
+      </U>
+    </V>
+  </L>
+</I>

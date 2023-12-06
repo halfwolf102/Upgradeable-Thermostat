@@ -57,7 +57,7 @@
             <L n="conditions">
               <V t="stat_based">
                 <U n="stat_based">
-                  <T n="stat">15047392364791015610<!--Halfwolf102:statistic_Object_Upgrade_Thermostat_Auto--></T>
+                  <T n="stat">275009<!--statistic_Object_Upgrade_Generic_Slot1--></T>
                   <U n="threshold">
                     <T n="value">100</T>
                   </U>
@@ -98,7 +98,7 @@
             <V t="statistic_change">
               <U n="statistic_change">
                 <T n="amount">0.833</T>
-                <T n="stat">15047392364791015610<!--Halfwolf102:statistic_Object_Upgrade_Thermostat_Auto--></T>
+                <T n="stat">275009<!--statistic_Object_Upgrade_Generic_Slot1--></T>
                 <L n="subject">
                   <E>Object</E>
                 </L>
@@ -107,7 +107,7 @@
             <V t="statistic_change">
               <U n="statistic_change">
                 <T n="amount">0.833</T>
-                <T n="stat">15047392364791015610<!--Halfwolf102:statistic_Object_Upgrade_Thermostat_Auto--></T>
+                <T n="stat">275009<!--statistic_Object_Upgrade_Generic_Slot1--></T>
                 <L n="subject">
                   <E>Object</E>
                 </L>
@@ -164,7 +164,7 @@
             <V t="statistic_change">
               <U n="statistic_change">
                 <T n="amount">0.5</T>
-                <T n="stat">15047392364791015610<!--Halfwolf102:statistic_Object_Upgrade_Thermostat_Auto--></T>
+                <T n="stat">275009<!--statistic_Object_Upgrade_Generic_Slot1--></T>
                 <L n="subject">
                   <E>Object</E>
                 </L>
@@ -508,7 +508,7 @@
       </U>
     </U>
   </V>
-  <T n="pie_menu_priority">8</T>
+  <T n="pie_menu_priority">9</T>
   <U n="progress_bar_enabled">
     <T n="remember_progress">True</T>
   </U>
@@ -572,7 +572,13 @@
     </V>
     <V t="state">
       <U n="state">
-        <T n="value">6195482010419633318<!--Halfwolf102:upgrade_Thermostat_Auto_NotStarted--></T>
+        <E n="operator">NOTEQUAL</E>
+        <T n="value">15080<!--BrokenState_Broken--></T>
+      </U>
+    </V>
+    <V t="state">
+      <U n="state">
+        <T n="value">275012<!--upgrade_NotStarted_Generic_Slot1--></T>
       </U>
     </V>
     <V t="state">
